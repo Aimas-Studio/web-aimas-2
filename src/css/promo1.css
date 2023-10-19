@@ -1,0 +1,26 @@
+.imagen-contenedor-principal {
+    width: 30%;
+    height: 20%;
+    margin: 1% 1%;
+    padding: 1% 1%;
+    border-radius: 30px;
+    display: flex;
+}
+
+.contenedor-principal {
+    display: flex;
+}
+
+.contenedor-texto-principal {
+    font-family: Poppins, sans-serif;
+    margin-right: 20%;
+    text-align: justify;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 2%;
+    font-size: 150%;
+}
+
+.texto-principal {
+    font-weight: bolder;
+}
