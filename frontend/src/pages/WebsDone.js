@@ -1,6 +1,6 @@
-import './css/webs-done.css';
-import SocialDotsHeader from './components/social-dots-header';
-import Pagina from './components/promo2'
+import '../css/webs-done.css';
+import SocialDotsHeader from '../components/social-dots-header';
+import Pagina from '../components/promo2'
 
 
 function WebsDone() {
