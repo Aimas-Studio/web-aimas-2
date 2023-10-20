@@ -1,9 +1,11 @@
 import React from 'react';
 import '../css/promo.css'
 
+
 function Portada( {imgLetter, mainText, secText} )
 {
   return (
+    
     <div className='contenedor-principal'>
       <img
         className='imagen-contenedor-principal'

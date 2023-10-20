@@ -1,9 +1,29 @@
 import './App.css';
 import Portada from './components/promo1'
 import Oval from './components/oval-promo'
+import { useState, useEffect } from 'react';
 
 
 function App() {
+
+  const [data, setData] = useState([])
+  useEffect(()=> {
+    async function fetchData(){
+      try {
+        const response = await fetch('http://127.0.0.1:8000/api/blogs/')
+        if (!response.ok){
+          throw new Error("La red no respondió de manera correcta")
+        }
+        const result = await response.json();
+        setData(result)
+      }
+      catch(error){
+        console.error('Error consiguiendo los datos', error)
+      }}
+    
+    fetchData()
+    }, []);
+
   return (
     <div className="App">
      <div className='contenedor-general'>

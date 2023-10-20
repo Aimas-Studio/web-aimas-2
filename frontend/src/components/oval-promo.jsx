@@ -1,5 +1,6 @@
 import React from 'react';
-import '../css/promo.css'
+import '../css/promo.css';
+
 
 function Oval( {word1, word2} )
 {
