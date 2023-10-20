@@ -1,0 +1,139 @@
+@font-face {
+    font-display: block;
+    font-family: Poppins;
+    src: url(./fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-display: block;
+    font-family: PoppinsBold;
+    src: url(./fonts/Poppins/Poppins-ExtraBold.ttf);
+}
+
+
+@font-face {
+    font-display: block;
+    font-family: PoppinsLight;
+    src: url(./fonts/Poppins/Poppins-Light.ttf);
+}
+
+
+.blue-oval-container {
+    margin: 3%;
+    padding: 3%;
+    border: 2px solid #bcbcbc;
+    border-radius: 20px;
+    font-family: Poppins, sans-serif;
+    width: 35%;
+    background-color: #467BF7;
+}
+.blue-oval-text {
+    color: #fff;
+    padding: 2px 2px;
+    font-size: 1.2rem;
+    margin-right: 5px;
+    display: flex;
+}
+
+#blue-oval-head-text {
+    font-family: PoppinsBold;
+    font-size: 1.5rem;
+
+}
+
+.oval-button-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    padding-bottom: 20%;
+    padding-top: 15%;
+}
+
+.blue-oval-button {
+    font-family: PoppinsLight;
+    color: white;
+    border-radius: 8px;
+    background: none;
+    border: 1px solid #fff;
+    margin: 5px 2px;
+    padding: 1% 11%;
+    font-size: 1.2rem;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1180px) {
+    .blue-oval-button {
+        font-size: 0.9rem;
+    }
+    .blue-oval-text {
+        font-size: 1rem;
+    }
+    .blue-oval-container{
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (max-width: 890px) {
+    .blue-oval-button {
+        font-size: 0.7rem;
+    }
+    .blue-oval-text {
+        font-size: 0.9rem;
+    }
+    #blue-oval-head-text {
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .blue-oval-container{
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .blue-oval-container{
+        width: 43%;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .blue-oval-button {
+        font-size: 0.6rem;
+    }
+    .blue-oval-text {
+        font-size: 0.8rem;
+    }
+    #blue-oval-head-text {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .blue-oval-button {
+        font-size: 0.7rem;
+    }
+    .blue-oval-text {
+        font-size: 0.9rem;
+    }
+    #blue-oval-head-text {
+        font-size: 1.1rem;
+    }
+    .blue-oval-container{
+        width: 65%;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .blue-oval-container{
+        width: 70%;
+    }
+}
+

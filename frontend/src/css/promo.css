@@ -1,3 +1,9 @@
+@font-face {
+    font-display: block;
+    font-family: Poppins;
+    src: url(./fonts/Poppins/Poppins-Regular.ttf);
+}
+
 .imagen-contenedor-principal {
     width: 30%;
     height: 20%;
@@ -29,69 +35,8 @@
     font-size: 1.7rem;
 }
 
-.oval-container {
-    border: 2px solid #bcbcbc;
-    border-radius: 8px;
-    font-family: Poppins, sans-serif;
-    width: 20%;
-    height: 10%;
-    /*align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: center;
-    */
-}
-.oval-p {
-    padding: 2px 2px;
-    font-size: 1.7rem;
-    margin-right: 5px;
-    align-items: left;
-    justify-content: left;
-    align-content: left;
-    display: flex;
-}
 
-.circle {
-    position: relative;
-    background: #e71c05;
-    border-radius: 50%;
-    width: 35px;
-    height: 35px;
-    left: 70%;
-    margin-top: 8%;
-    justify-content: flex-start;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-}
-
-.checkmark {
-    position: absolute;
-    transform: rotate(45deg) translate(-50%, -50%);
-    left: 24%;
-    top: 45%;
-    height: 22px;
-    width: 10px;
-    border-bottom: 3px solid white;
-    border-right: 3px solid white;
-}
-
-.oval-button {
-    border: 2px solid #afafaf;
-    margin: 5px 5px;
-    padding: 3px 3px;
-    font-size: 1.2rem;
-    margin-right: 5px;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-}
-
-/* Aquí es donde comienza la consulta de medios */
+/* Aquí es donde comienza el Media Queries */
 @media screen and (max-width: 1000px) {
     .imagen-contenedor-principal {
         width: 70%;

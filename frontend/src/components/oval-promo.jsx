@@ -1,28 +1,30 @@
 import React from 'react';
-import '../css/promo.css';
+import '../css/oval-promo.css'
 
-
-function Oval( {word1, word2} )
+function Oval( {word1, word2, imageColor} )
 {
   return (
     
     <div className='oval-container'>
-        <div class="circle">
-            <div class="checkmark"></div>
+        <div className="circle">
+            <img 
+            className='check-image'
+            src={require(`../images/${imageColor}-check.png`)}
+            alt="Check"
+            />
         </div>
-        <div className='oval-p'>
-            <strong>{word1}</strong>
+        <div className='oval-p' id='oval-p-word1'>
+            {word1}
         </div>
         <div className='oval-p'>
             {word2}
         </div>
 
-        <div className='oval-button'>
-            Ver Más
+        <div className='oval-button-container'>
+            <button className='oval-button'>
+                VER MÁS
+            </button>
         </div>
-        
-            
-        
     </div>
   )
 }
