@@ -1,0 +1,128 @@
+@font-face {
+    font-display: block;
+    font-family: Poppins;
+    src: url(./fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-display: block;
+    font-family: PoppinsBold;
+    src: url(./fonts/Poppins/Poppins-ExtraBold.ttf);
+}
+
+
+@font-face {
+    font-display: block;
+    font-family: PoppinsLight;
+    src: url(./fonts/Poppins/Poppins-Light.ttf);
+}
+
+
+.oval-container {
+    margin: 3%;
+    padding: 1%;
+    border: 2px solid #bcbcbc;
+    border-radius: 20px;
+    font-family: Poppins, sans-serif;
+    width: 15%;
+}
+.oval-p {
+    padding: 2px 2px;
+    font-size: 1.9rem;
+    margin-right: 5px;
+    display: flex;
+}
+
+#oval-p-word1 {
+    font-family: PoppinsBold;
+}
+.circle {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+}
+
+.check-image {
+    width: 15%;
+    margin-top: 3%;
+    margin-right: 3%;
+}
+
+.oval-button-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    padding-bottom: 20%;
+    padding-top: 15%;
+}
+
+.oval-button {
+    font-family: PoppinsLight;
+    border-radius: 8px;
+    background: none;
+    border: 2px solid #bcbcbc;
+    margin: 2px 2px;
+    padding: 2% 20%;
+    font-size: 1.2rem;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1180px) {
+    .oval-button {
+        font-size: 0.9rem;
+    }
+    .oval-p {
+        font-size: 1.5rem;
+    }
+    .oval-container{
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (max-width: 890px) {
+    .oval-button {
+        font-size: 0.7rem;
+    }
+    .oval-p {
+        font-size: 1.3rem;
+    }
+    .oval-container{
+        width: 17%;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .oval-button {
+        font-size: 0.6rem;
+    }
+    .oval-p {
+        font-size: 1.2rem;
+    }
+}
+
+
+@media only screen and (max-width: 580px) {
+    .oval-button {
+        font-size: 0.6rem;
+    }
+    .oval-p {
+        font-size: 1.2rem;
+    }
+    .oval-container{
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .oval-container{
+        width: 40%;
+    }
+}
