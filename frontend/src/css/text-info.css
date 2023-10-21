@@ -1,0 +1,27 @@
+@font-face {
+    font-family: Poppins;
+    src: url(./fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: PoppinsBold;
+    src: url(./fonts/Poppins/Poppins-ExtraBold.ttf);
+}
+@font-face {
+    font-family: PoppinsLight;
+    src: url(./fonts/Poppins/Poppins-Light.ttf);
+}
+
+.main-text {
+    font-family: PoppinsBold;
+    font-size: 1.7rem;
+}
+
+.sec-text {
+    font-family: Poppins;
+    font-size: 1.5rem;
+}
+
+.button-text{
+    font-family: PoppinsLight;
+    font-size: 1rem;
+}

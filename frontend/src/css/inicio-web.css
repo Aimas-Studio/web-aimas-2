@@ -1,0 +1,41 @@
+.top-container {
+    margin: 4%;
+}
+
+/*PRIMERA COLUMNA*/
+.aimas-small-logo-image {
+    width: 35%;
+    margin-top: 90%;
+    margin-left: 10%;
+}
+
+/*SEGUNDA COLUMNA*/
+
+.big-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.aimas-big-logo-image {
+    width: 70%;
+}
+
+/*TERCERA COLUMNA*/
+.third-column-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 3%;
+    align-content: center;
+    align-items: center;
+}
+
+.third-column {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+}
