@@ -1,0 +1,97 @@
+@font-face {
+    font-display: block;
+    font-family: Poppins;
+    src: url(./fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-display: block;
+    font-family: PoppinsBold;
+    src: url(./fonts/Poppins/Poppins-ExtraBold.ttf);
+}
+@font-face {
+    font-display: block;
+    font-family: PoppinsExLight;
+    src: url(./fonts/Poppins/Poppins-ExtraLight.ttf);
+}
+.imagen-contenedor-principal-promo2 {
+    width: 30%;
+    height: 20%;
+    margin: 1% 1%;
+    padding: 1% 1%;
+    border-radius: 30px;
+    display: flex;
+}
+
+.contenedor-principal-promo2 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.contenedor-texto-principal-promo2 {
+    font-family: Poppins, sans-serif;
+    margin-right: 20%;
+    text-align: justify;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 2%;
+    font-size: 1.5rem
+}
+
+.texto-principal-promo2 {
+    font-family: PoppinsBold, sans-serif;
+    font-size: 2rem;
+}
+
+.contenedor-tags-texto {
+    display: flex;
+    justify-content: space-around;
+    font-family: PoppinsExLight;
+    font-size: 1.2rem;
+}
+
+#irsitio-text {
+    color: #e82700ec;
+}
+
+/* Aquí es donde comienza el Media Queries */
+@media screen and (max-width: 1000px) {
+    .imagen-contenedor-principal-promo2 {
+        width: 70%;
+        height: auto;
+    }
+
+    .contenedor-texto-principal-promo2 {
+        font-size: 1.2rem;
+        margin: 10% 10%;
+    }
+
+    .contenedor-principal-promo2 {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 600px) {
+    .texto-principal-promo2 {
+        font-size: 1.6rem;
+    }
+    .contenedor-tags-texto {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .texto-principal-promo2 {
+        font-size: 1.2rem;
+    }
+    .texto-secundario-promo2 {
+        font-size: 0.8rem;
+    }
+    .contenedor-tags-texto {
+        font-size: 0.8rem;
+    }
+}
