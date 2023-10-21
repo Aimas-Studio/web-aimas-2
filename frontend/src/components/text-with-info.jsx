@@ -1,6 +1,6 @@
-import '../css/text-info.css';
+import '../css/text-info-button.css';
 
-function TextInfo( {mainText, secText, buttonText} ) {
+function TextInfo( {mainText, secText } ) {
   return (
     <div className="text-info-container">
         <p className='main-text'>
@@ -8,13 +8,7 @@ function TextInfo( {mainText, secText, buttonText} ) {
         </p>
         <p className='sec-text'>
           {secText}
-        </p>
-        <div className='oval-button-container'>
-        <button className='button-text'>
-            {buttonText}
-        </button>
-        </div>
-        
+        </p>        
     </div>   
   );
 }

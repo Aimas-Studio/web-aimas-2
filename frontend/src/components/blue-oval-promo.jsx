@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/blue-oval-promo.css'
 
-function BlueOval( {word1, word2 } )
+function BlueOval( {word1, word2, buttonText } )
 {
   return (
     
@@ -14,7 +14,7 @@ function BlueOval( {word1, word2 } )
         </div>
         <div className='blue-oval-button-container'>
             <button className='blue-oval-button'>
-                VER MÁS
+                {buttonText}
             </button>
         </div>
     </div>
