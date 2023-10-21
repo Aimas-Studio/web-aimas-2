@@ -2,10 +2,13 @@ import './App.css';
 import Portada from './components/promo1'
 import Oval from './components/oval-promo'
 import BlueOval from './components/blue-oval-promo';
+import SocialDotsHeader from './components/social-dots-header';
+
 
 function App() {
   return (
     <div className="App">
+      <SocialDotsHeader/>
       <div className='contenedor-general'>
         <Portada
           imgLetter='A'
