@@ -1,0 +1,31 @@
+.LogoAndImage {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    align-content: space-around;
+}
+
+.logo-container {
+    margin: 3% 3%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.promoi-container {
+    display: contents;
+    margin: 2%;
+    width: 40%;
+}
+
+.promo-image {
+    width: 50%;
+    margin: 0% 2%;
+}
+
+.logo-image {
+    width: 80%;
+}

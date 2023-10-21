@@ -1,0 +1,15 @@
+.three-dots-container {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+    .logos {
+        width: 12%;
+        margin: 5%;
+        padding: 0%;
+    }
+    .three-dots-container {
+        padding: 1% 0% 1% 3%;
+    }
+}
