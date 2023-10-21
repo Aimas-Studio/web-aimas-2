@@ -1,4 +1,4 @@
-import './App.css';
+import './BlogWeb.css';
 import Portada from './components/promo1'
 import Oval from './components/oval-promo'
 import BlueOval from './components/blue-oval-promo';
