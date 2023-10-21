@@ -22,6 +22,7 @@ function OvalComponents() {
         <BlueOval
           word1='¿Quiénes somos?'
           word2='Somos un Estudio de Diseño especializado en la creación de marcas y sitios webs.'
+          buttonText='VER MÁS'
         />
       </div>     
     </div>   
