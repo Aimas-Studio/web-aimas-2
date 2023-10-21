@@ -41,7 +41,11 @@ function InicioWeb() {
       </div>
 
       <OvalComponents/>
-      <TextInfo/>
+      <TextInfo
+        mainText='Blog del Sitio'
+        secText='Contamos con una blog digital en donde te brindamos consejos y recomendaciones para impulsar tu negocio en distintas esferas.'
+        buttonText='IR AL BLOG'
+      />
      
     </div>   
   );

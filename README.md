@@ -8,4 +8,3 @@ Somos un Estudio de Diseño especializado en la creación de marcas y el desarro
    [0HH02](https://github.com/0HH02)
 
    [marians002](https://github.com/marians002)
-
