@@ -2,7 +2,7 @@ import OvalImage from '../components/oval-image'
 import BlueOval from '../components/blue-oval-promo';
 import '../css/oval-components-image.css';
 
-
+//Ovalo azul con texto y botón acompañado de dos imágenes.
 function OvalComponentsImage() {
   return (
     <div className="OvalComponentsImage">

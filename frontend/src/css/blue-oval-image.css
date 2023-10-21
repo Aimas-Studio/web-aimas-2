@@ -1,0 +1,47 @@
+.blue-oval-container {
+    background-color: #467BF7;
+    background-image: url('../images/pincel-fondo.png');
+    background-size: contain;
+    background-position: bottom;
+    border: none;
+    background-repeat: no-repeat;
+    padding-bottom: 9%;
+}
+
+@media screen and (max-width: 600px)
+{
+    .LogoAndImage {
+        display: none;
+    }
+    .blue-oval-text {
+        font-size: 0.7rem;
+    }
+    .blue-oval-container {
+        width: 80%;
+        padding: 8% 8% 20% 8%;
+    }
+    .oval-image {
+        display: none;
+    }
+    .BlueOvalComponentsImage{
+        display: flex;
+        justify-content: center;
+    } 
+}
+
+@media screen and (max-width: 345px)
+{
+    #blue-oval-head-text {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 300px)
+{
+    .blue-oval-text {
+        font-size: 0.6rem;
+    }
+    #blue-oval-head-text {
+        font-size: 0.8rem;
+    }
+}
