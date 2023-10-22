@@ -4,9 +4,14 @@
 
 /*PRIMERA COLUMNA*/
 .aimas-small-logo-image {
-    width: 35%;
-    margin-top: 90%;
-    margin-left: 10%;
+    width: 40%;
+}
+
+.first-column {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
 }
 
 /*SEGUNDA COLUMNA*/
@@ -19,6 +24,7 @@
 }
 .aimas-big-logo-image {
     width: 70%;
+    margin: 6% 0%;
 }
 
 /*TERCERA COLUMNA*/
@@ -40,7 +46,25 @@
     flex-direction: row-reverse;
 }
 
+.footer-promocional {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 3%;
+}
+.footer-promocional > .social-media-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+@media screen and (min-width: 601px) {
+    .footer-promocional {
+        display: none;
+    }
+    
+}
 
 @media screen and (max-width: 770px) {
     .first-column {
@@ -49,7 +73,7 @@
     .third-column {
         position: absolute;
     }
-    .social-media-container {
+    .third-column-container > .social-media-container {
         display: none;
     }
     .solo-dots {

@@ -5,7 +5,7 @@ function BlueOval( {word1, word2, buttonText } )
 {
   return (
     
-    <div className='blue-oval-container'>
+    <div className='blue-oval-container' id='no-image-blue-oval'>
         <div className='blue-oval-text' id='blue-oval-head-text'>
             { word1 }
         </div>

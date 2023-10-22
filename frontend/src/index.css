@@ -1,14 +1,29 @@
 @font-face {
+  font-display: block;
   font-family: Poppins;
   src: url(./css/fonts/Poppins/Poppins-Regular.ttf);
 }
 @font-face {
+  font-display: block;
   font-family: PoppinsBold;
   src: url(./css/fonts/Poppins/Poppins-Bold.ttf);
 }
 @font-face {
+  font-display: block;
   font-family: PoppinsLight;
   src: url(./css/fonts/Poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+  font-display: block;
+  font-family: PoppinsExBold;
+  src: url(./css/fonts/Poppins/Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+  font-display: block;
+  font-family: PoppinsExLight;
+  src: url(./css/fonts/Poppins/Poppins-ExtraLight.ttf);
 }
 
 body {

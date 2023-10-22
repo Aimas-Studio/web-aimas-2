@@ -1,9 +1,3 @@
-@font-face {
-    font-display: block;
-    font-family: Poppins;
-    src: url(./fonts/Poppins/Poppins-Regular.ttf);
-}
-
 .imagen-contenedor-principal {
     width: 30%;
     height: 20%;

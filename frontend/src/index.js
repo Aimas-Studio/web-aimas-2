@@ -5,13 +5,14 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import './index.css';
 import BlogWeb from './pages/BlogWeb';
 import WebGallery from './pages/WebGallery';
-//import InicioWeb from './pages/InicioWeb';
 import WebDesign from './pages/WebDesign';
 import WebSites from './pages/WebSites';
+import InicioWeb from './pages/InicioWeb';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
    <React.StrictMode>
-    <WebSites/>
+    <InicioWeb/>
   </React.StrictMode>
 );
