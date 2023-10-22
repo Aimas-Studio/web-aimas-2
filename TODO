@@ -1,5 +1,3 @@
-Quitar font-face de los css que no lo necesiten. Viene en index.css y todos heredan de ahí.
-
 Modo oscuro web aimas logo
 
 Ajustar componentes de WebGallery
