@@ -4,6 +4,7 @@ import leftArrow from '../images/arrow-left.png';
 import {useState} from 'react';
 import '../css/three-dots.css'
 import '../css/dropdown.css'
+import SocialMedia from './social-media';
 
 
 
@@ -52,6 +53,11 @@ function DropDown() {
               <Dropdown.Divider />
               <Dropdown.Item eventKey="6">Blog</Dropdown.Item>
               <Dropdown.Divider />
+
+              <Dropdown.Item eventKey="7">
+                <SocialMedia/>
+              </Dropdown.Item>
+
               </div>         
         </Dropdown>
     </div>
