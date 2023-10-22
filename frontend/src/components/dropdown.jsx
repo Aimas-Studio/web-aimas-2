@@ -17,7 +17,7 @@ function DropDown() {
     }
 
   return (
-    <div>
+    <div className='dropdown-three-dots-container'>
         <Dropdown as={ButtonGroup}>
             
             {/*TOGGLE*/}
@@ -33,7 +33,6 @@ function DropDown() {
             {/*MENU*/}
             <div drop="start" id="my-dropdown-menu" x-placement="bottom-start" aria-labelledby="dropdown-custom" data-popper-reference-hidden="false" data-popper-escaped="false" data-popper-placement="bottom-start" className={isActive ? 'show dropdown-menu' : 'dropdown-menu'} >
             
-            {/* <Dropdown.Menu>*/}
               <Dropdown.Item eventKey="1" onClick={handleClick}>
                 <img 
                     src={leftArrow}                    
@@ -53,7 +52,6 @@ function DropDown() {
               <Dropdown.Divider />
               <Dropdown.Item eventKey="6">Blog</Dropdown.Item>
               <Dropdown.Divider />
-            {/* </Dropdown.Menu>*/}
               </div>         
         </Dropdown>
     </div>

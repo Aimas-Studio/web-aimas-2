@@ -7,8 +7,6 @@ function ThreeDots()
   return (
     
     <div className='three-dots-container'>
-        
-        
         <DropDown/>
     </div>
 
