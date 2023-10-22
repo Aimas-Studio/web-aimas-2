@@ -4,7 +4,7 @@ from django.db import models
 class Blog(models.Model):
     title = models.CharField(max_length=200)
     body = models.TextField()
-    image = models.ImageField(upload_to='ruta/donde/subir', default='https://drive.google.com/file/d/1edRPGsRoz5yrgRSzelmtBdpR8Fs9wA-3/view?usp=share_link')
+    image = models.ImageField(upload_to='Blogs')
 
     def __str__(self):
         return f"Blog: {self.title}"

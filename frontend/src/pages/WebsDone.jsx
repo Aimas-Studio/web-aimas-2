@@ -1,9 +1,30 @@
 import '../css/webs-done.css';
 import SocialDotsHeader from '../components/social-dots-header';
 import Pagina from '../components/promo2'
+import { useState, useEffect } from 'react';
+
 
 
 function WebsDone() {
+  const [project, setProject] = useState([])
+
+  useEffect(()=> {
+      async function fetchProject(){
+        try {
+          const response = await fetch('http://127.0.0.1:8000/api/project/')
+          if (!response.ok){
+            throw new Error("La red no respondió de manera correcta")
+          }
+          const result = await response.json();
+          setProject(result)
+        }
+        catch(error){
+          console.error('Error consiguiendo los datos', error)
+        }}
+    fetchProject()
+    console.log(project)
+    }, []);
+    
   return (
     <div className="WebsDone">
       <SocialDotsHeader/>
