@@ -14,12 +14,12 @@ class Project(models.Model):
     body = models.TextField()
     image = models.ImageField(upload_to='Project', )
     type = models.CharField(
-        max_length=3,
+        max_length=200,
         choices=[
-            ('OP1', '-IMPLEMENTADO-'),
-            ('OP2', '-PROXIMO A IMPLEMENTARSE-'),
-            ('OP3', '-PROPUESTA-')],
-        default='OP2',)
+            ('-IMPLEMENTADO-', '-IMPLEMENTADO-'),
+            ('-PROXIMO A IMPLEMENTARSE-', '-PROXIMO A IMPLEMENTARSE-'),
+            ('-PROPUESTA-', '-PROPUESTA-')],
+        default='-IMPLEMENTADO-',)
     site = models.BooleanField(default=False, help_text="Tiene sitio web")
     url = models.URLField(max_length=200, blank=True)
     
