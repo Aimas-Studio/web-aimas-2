@@ -24,6 +24,7 @@ function WebGallery() {
     fetchProject()
     console.log(projects)
     }, []);
+  
     
   return (
     <div className="WebsDone">
@@ -38,107 +39,7 @@ function WebGallery() {
           irSitio={project.site}
           url={project.url}  
         />
-          )
-        }
-{/*       
-
-			<Pagina
-        dir='webs-developed/elencanto'
-        mainText='El Encanto Liquidation'
-        secText='Tienda Online creada para compañía de liquidación radicada en Texas, USA. Contiene carrito de compras integrado, botón de contacto, redes sociales y una pestaña para cada categoría de productos.'
-				implementado='-IMPLEMENTADO-'
-				irSitio='-IR AL SITIO-'
-      />
-
-			<Pagina
-        dir='webs-developed/karitex'
-        mainText='Karitex S.U.R.L'
-        secText='Pagina para redes sociales de empresa
-				de confecciones textiles Karitex S.U.R.L.'
-				implementado='-IMPLEMENTADO-'
-				irSitio=''
-      />
-
-			<Pagina
-        dir='webs-developed/turquino-tryp'
-        mainText='Turquino Tryp Havana Libre'
-        secText='Diseño de Cartel promocional para evento temático del proyecto de organización de eventos SAFARI y póster de ofertas disponibles para la discoteca Turquino del hotel Tryp Havana Libre.'
-				implementado='-IMPLEMENTADO-'
-				irSitio=''
-      />
-			<Pagina
-        dir='webs-developed/portafolio'
-        mainText='Portafolio desarrollador'
-        secText='Diseño del portafolio del desarrollador web Frank Pérez Fleita.'
-				implementado='-IMPLEMENTADO-'
-				irSitio='-IR AL SITIO-'
-      />
-			<Pagina
-        dir='webs-developed/gym-midtown'
-        mainText='GYM Midtown'
-        secText='Página web (Servicio) creada para la gestión de la asistencia en GYM Midtown,de Houston, USA.'
-				implementado='-PRÓXIMO A IMPLEMENTARSE-'
-				irSitio=''
-      />
-			<Pagina
-        dir='webs-developed/choco-thay'
-        mainText='Choco Thay'
-        secText='Diseño de identificador visual y etiquetas para chocolatería.'
-				implementado='-IMPLEMENTADO-'
-				irSitio=''
-      />
-			<Pagina
-        dir='webs-developed/elbisne'
-        mainText='El Bisne'
-        secText='Creación del nombre de marca, identificador visual, manual de identidad y sitio web de la plataforma "El Bisne".
-				Proyecto que permite a los emprendedores cubanos tener un mini sitio web por un precio módico de alojamiento mensual.'
-				implementado='-PRÓXIMO A IMPLEMENTARSE-'
-				irSitio=''
-      />
-			<Pagina
-        dir='webs-developed/safari'
-        mainText='Safari'
-        secText='Identificador visual para proyecto de organización de eventos SAFARI.'
-				implementado='-IMPLEMENTADO-'
-				irSitio=''
-      />
-			<Pagina
-        dir='webs-developed/ld-lavanderia'
-        mainText='L´D Lavandería'
-        secText='Diseño de identificador visual y tablilla de precios para lavandería radicada en La Lisa.'
-				implementado='-IMPLEMENTADO-'
-				irSitio=''
-      />
-			<Pagina
-        dir='webs-developed/cchang2'
-        mainText='CChang S.U.R.L'
-        secText='Diseño de identificador visual, tarjetas de presentación, credenciales y otros soportes como parte de un Manual de Identidad Visual para la empresa constructora CChang.'
-				implementado='-PRÓXIMO A IMPLEMENTARSE-'
-				irSitio=''
-      />
-			<Pagina
-        dir='webs-developed/startcell'
-        mainText='Start Cell'
-        secText='Diseño de sitio web para taller de celulares. En la página los clientes pueden ver el estado de reparación de sus dispositivo, conocer los datos del negocio y acceder a su tienda online.'
-				implementado='-IMPLEMENTADO-'
-				irSitio='-IR AL SITIO-'
-      />
-			<Pagina
-        dir='webs-developed/eli-salon'
-        mainText='Eli Salon'
-        secText='Propuesta de identificador visual para salón de belleza especializado en tratamientos faciales y arreglo de cejas.'
-				implementado='-PROPUESTA-'
-				irSitio=''
-      />
-			<Pagina
-        dir='webs-developed/trade-travel'
-        mainText='Trade and Travel'
-        secText='Rediseño de marca gráfica para plataforma de cursos online sobre trading y viajes creada por Terry Ijeoma, reconocida especialista del sector.'
-				implementado='-PROPUESTA-'
-				irSitio=''
-      /> */}
-
-
+          )}
     </div>    
   );
 }
