@@ -7,10 +7,11 @@ import BlogWeb from './pages/BlogWeb';
 import WebGallery from './pages/WebGallery';
 //import InicioWeb from './pages/InicioWeb';
 import WebDesign from './pages/WebDesign';
+import WebSites from './pages/WebSites';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
    <React.StrictMode>
-    <WebDesign/>
+    <WebSites/>
   </React.StrictMode>
 );

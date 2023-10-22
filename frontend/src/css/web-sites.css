@@ -1,0 +1,10 @@
+.container-blue-oval-and-image {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.oval-image {
+    width: 40%;
+}
