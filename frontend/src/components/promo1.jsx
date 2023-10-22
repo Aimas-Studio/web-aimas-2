@@ -9,7 +9,7 @@ function Portada( { dir, mainText, secText} )
     <div className='contenedor-principal'>
       <img
         className='imagen-contenedor-principal'
-        src={require(`../images/${dir}.png`)}
+        src={dir}
         alt="Social Media"
       />
       <div className='contenedor-texto-principal'>
