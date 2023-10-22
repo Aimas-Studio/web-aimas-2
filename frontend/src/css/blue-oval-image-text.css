@@ -26,7 +26,7 @@
 
 @media screen and (width: 1400px)
 {
-    .texto-largo {
-        margin: 2%;
+    .varita {
+        width: 90%;    
     }
 }
