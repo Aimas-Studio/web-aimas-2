@@ -1,10 +1,127 @@
-.container-blue-oval-and-image {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
+.frank-web, .camion {
+    width: 40%;
+    border-radius: 15px;
+    height: 22rem;
+
 }
 
-.oval-image {
-    width: 40%;
+.container-blue-oval-two-images {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.blue-oval-container {
+    background-size: cover;
+}
+
+.mac-design {
+    margin: 3%;
+}
+
+.promo-web-design {
+    margin: 3%;
+    width: 17%;
+}
+
+.text-info-container {
+    margin: 1% 5%;
+}
+
+.cont-info-but-container {
+    margin-left: 7%;
+}
+
+.rueditas {
+    background-image: url('../images/rueditas.png');
+    background-color: #4EB3E7;
+    width: 37%;
+}
+
+.flecha {
+    background-image: url('../images/flecha.png');
+    background-color: #0086CB;
+}
+
+@media screen and (min-width: 2200px) {
+    .camion, .frank-web {
+        height: 25rem;
+    }   
+}
+@media screen and (max-width: 1900px) {
+    .camion, .frank-web {
+        height: 21rem;
+    }   
+}
+@media screen and (min-width: 1630px) {
+    .promo-web-design {
+        width: 15.5%;
+    }    
+}
+@media screen and (max-width: 1630px) {
+    .camion, .frank-web {
+        height: 19rem;
+    }   
+}
+
+@media screen and (max-width: 1180px) {
+    .camion, .frank-web {
+        height: 15rem;
+    }   
+}
+@media screen and (max-width: 1000px) and (min-width: 901px) {
+    .camion, .frank-web {
+        height: 14rem;
+    }   
+}
+
+@media screen and (max-width: 980px) {
+    .promo-web-design {
+        margin: 3% 2%;
+    }    
+}
+
+@media screen and (max-width: 930px) {
+    .mac-design {
+        width: 15%;
+    }    
+    .rueditas {
+        width: 40%;
+    }  
+    .frank-web {
+        height: 12rem;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .camion {
+        height: 13rem;
+    }   
+
+}
+
+@media screen and (max-width: 760px) and (min-width: 601px) {
+    .rueditas {
+        background-size: contain;
+    } 
+    .camion {
+        height: 12rem;
+    }
+    .frank-web {
+        height: 11rem;
+    }  
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .rueditas {
+        width: 80%;
+    }   
+}
+
+@media screen and (max-width: 316px) and (min-width: 301px) {
+    .rueditas {
+        background-size: contain;
+    }   
 }

@@ -4,7 +4,7 @@ function OvalImage( {image} )
 {
   return (
     <img 
-      className='oval-image'
+      className={`oval-image ${image}`}
       src={require(`../images/${image}.png`)}
       alt="Promo"
     />
