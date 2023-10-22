@@ -7,6 +7,27 @@
     margin: 1%;
 }
 
+@media screen and (max-width: 1400px)
+{
+    .varita {
+        width: 95%;  
+        height: 80%;  
+    }
+}
+
+@media screen and (max-width: 1000px)
+{
+    .texto-largo {
+        margin: 1% 4% 1% 1%;
+    }
+}
+@media screen and (max-width: 890px)
+{
+    .varita {
+        height: 68%;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .logos {
         width: 12%;
@@ -15,5 +36,27 @@
     }
     .three-dots-container {
         padding: 1% 0% 1% 3%;
+    }
+    .varita {
+
+    }
+    .my-row {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .column-first {
+        width: 70%;
+    }
+    .column-second {
+        width: 100%;
+    }
+    .cont-info-but-container {
+        margin: 1%;
+    }
+    .column-sized-12 {
+        padding: 0% 0%;
     }
 }

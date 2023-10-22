@@ -23,10 +23,3 @@
 .column-sized-12 {
     margin: 3%;
 }
-
-@media screen and (width: 1400px)
-{
-    .varita {
-        width: 90%;    
-    }
-}

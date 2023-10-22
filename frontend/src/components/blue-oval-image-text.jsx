@@ -25,8 +25,8 @@ function BlueOvalImageText( {mainText, secText, backImage} ) {
         colorT2='#003070'
       />*/
 
-      <div class="container">
-        <div class="row">
+      <div class="container rows-container">
+        <div class="row my-row">
           <div class="col-sm-6 column-first">
             <BlueOvalImage
               word1={mainText}
@@ -34,7 +34,7 @@ function BlueOvalImageText( {mainText, secText, backImage} ) {
               background = {backImage}
             />
           </div>
-          <div class="col-sm-6">
+          <div class="col-sm-6 column-second">
             <div class="row">
               <div class="col-sm-12 column-sized-12">
               <p className='texto-largo'>

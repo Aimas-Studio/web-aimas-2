@@ -10,7 +10,7 @@ import WebDesign from './pages/WebDesign';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  // <React.StrictMode>
-    <WebsDone/>
-  // </React.StrictMode>
+   <React.StrictMode>
+    <WebDesign/>
+  </React.StrictMode>
 );

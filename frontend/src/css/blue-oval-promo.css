@@ -38,7 +38,6 @@
 #blue-oval-head-text {
     font-family: PoppinsBold;
     font-size: 1.5rem;
-
 }
 
 .oval-button-container {
@@ -77,9 +76,6 @@
     }
     .blue-oval-text {
         font-size: 1rem;
-    }
-    .blue-oval-container{
-        border-radius: 10px;
     }
 }
 
