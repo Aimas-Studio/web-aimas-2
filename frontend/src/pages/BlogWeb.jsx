@@ -6,8 +6,8 @@ import { useState, useEffect } from 'react';
 
 
 function App() {
-
-  const [blogs, setBlog] = useState([])
+//TODO LO QUE ESTÁ COMENTADO ES EL CODIGO QUE LO CONECTA CON EL BACKEND
+  /*const [blogs, setBlog] = useState([])
 
   useEffect(()=> {
     async function fetchBlog(){
@@ -45,7 +45,21 @@ function App() {
       <OvalComponents/>
      
     </div>   
-  );
+  );*/
+  return (
+    <div className="App">
+      <SocialDotsHeader/>
+      <div className='contenedor-general'>
+            <Portada
+            dir={require('../images/promo-A.png')}
+            mainText='El secreto del éxito empresarial: ¡Descubre el poder del logo!'
+            secText='Un identificador visual, conocido comúnmente como logotipo, es de vital importancia para tu negocio. No se trata simplemente de un dibujo o una imagen, sino de la representación visual de'
+            />
+      </div>
+     
+      <OvalComponents/>
+     
+    </div>   )
 }
 
 export default App;
