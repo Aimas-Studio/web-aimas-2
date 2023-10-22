@@ -1,0 +1,32 @@
+.BlueOvalImageText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-largo {
+    font-family: PoppinsLight;
+    margin-right: 8%;
+}
+
+.column-first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.varita {
+    width: 80%;
+    padding: 7% 5% 13% 5%;
+}
+
+.column-sized-12 {
+    margin: 3%;
+}
+
+@media screen and (width: 1400px)
+{
+    .texto-largo {
+        margin: 2%;
+    }
+}

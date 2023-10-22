@@ -7,7 +7,7 @@ function BlueOvalImage( {word1, word2, background } )
 {
   return (
     
-        <div className='blue-oval-container'>
+        <div className={`blue-oval-container ${background}`}>
             <div className='blue-oval-text' id='blue-oval-head-text'>
                 { word1 }
             </div>

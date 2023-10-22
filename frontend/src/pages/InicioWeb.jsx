@@ -56,7 +56,6 @@ function InicioWeb() {
       <TextInfo
         mainText='¿Quiénes Somos?'
         secText='Somos un Estudio de Diseño especializado en la creación de marcas y sitios webs. Creamos logotipos, manuales de identidad, tarjetas de presentación, folletos, catálogos digitales y cartas menú para restaurantes, tiendas online y más!'
-        id = 'prueba'
       />
 
       <TextInfoButton

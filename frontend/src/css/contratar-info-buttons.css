@@ -1,0 +1,21 @@
+.cont-info-but-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 3%;
+}
+
+.cont-info-but {
+    font-family: PoppinsLight;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5% 3%;
+    margin: 2% 3%;
+}
+
+@media screen and (max-width: 500px) {
+    .cont-info-but-container {
+        flex-wrap: wrap;
+    }
+}

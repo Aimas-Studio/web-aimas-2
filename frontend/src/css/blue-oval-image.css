@@ -1,11 +1,30 @@
 .blue-oval-container {
-    background-color: #467BF7;
-    background-image: url('../images/pincel-fondo.png');
     background-size: contain;
     background-position: bottom;
     border: none;
     background-repeat: no-repeat;
     padding-bottom: 9%;
+}
+.pincel-fondo {
+    background-image: url('../images/pincel-fondo.png');
+    background-color: #467BF7;
+}
+
+.lupa {
+    background-image: url('../images/lupa.png');
+    background-color: #5846F7;
+    width: 35%;
+}
+
+.varita {
+    background-image: url('../images/varita.png');
+    background-color: #4EB3E7;
+}
+
+@media screen and (max-width: 1765px) {
+    .lupa {
+        width: 40%;
+    }
 }
 
 @media screen and (max-width: 600px)
@@ -26,8 +45,19 @@
     .BlueOvalComponentsImage{
         display: flex;
         justify-content: center;
-    } 
+    }
+    .lupa {
+        width: 60%;
+        padding: 2% 5% 15% 5%;
+    }
 }
+@media screen and (max-width: 420px) {
+    .lupa {
+        width: 80%;
+        padding-bottom: 18%;
+    }
+}
+
 
 @media screen and (max-width: 345px)
 {

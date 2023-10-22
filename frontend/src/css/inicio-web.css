@@ -40,9 +40,6 @@
     flex-direction: row-reverse;
 }
 
-#prueba {
-    background-color: red;
-}
 
 
 @media screen and (max-width: 770px) {
