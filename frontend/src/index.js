@@ -10,13 +10,7 @@ import WebDesign from './pages/WebDesign';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-<<<<<<< HEAD
   <React.StrictMode>
-    <WebDesign />
+    <WebGallery />
   </React.StrictMode>
-=======
-  // <React.StrictMode>
-    <InicioWeb />
-  // </React.StrictMode>
->>>>>>> bc9a144ab8e40ec359735e472424a49051de20ef
 );
