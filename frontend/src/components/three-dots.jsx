@@ -1,4 +1,5 @@
 import React from 'react';
+import DropDown from './dropdown';
 import '../css/three-dots.css'
 
 function ThreeDots()
@@ -6,13 +7,17 @@ function ThreeDots()
   return (
     
     <div className='three-dots-container'>
-         {/*Three Dots image*/}
-        <img 
-        className='three-dots'
-        src={require(`../images/three-dots.png`)}
-        alt="three dots"
-        />
+        
+        
+        <DropDown/>
     </div>
+
+    
+
+
+    
+
+
   )
 }
 
