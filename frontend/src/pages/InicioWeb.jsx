@@ -4,12 +4,23 @@ import OvalComponents from '../components/oval-components';
 import TextInfo from '../components/text-with-info';
 import TextInfoButton from '../components/text-info-button';
 import OvalComponentsImage from '../components/oval-components-image';
-import '../css/inicio-web.css';
 import DropDown from '../components/dropdown';
-
+import React, { useState, useEffect } from 'react';
+import '../css/inicio-web.css';
 
 
 function InicioWeb() {
+
+  const [modoOscuro, setModoOscuro] = useState(false);
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+    setModoOscuro(mediaQuery.matches);
+    const handler = (event) => setModoOscuro(event.matches);
+    mediaQuery.addEventListener('change', handler);
+    return () => mediaQuery.removeEventListener('change', handler);
+  }, []);
+
   return (
     <div className="InicioWeb">
             
@@ -19,7 +30,8 @@ function InicioWeb() {
         <div class="col-md-3 first-column">
         <img
           className='aimas-small-logo-image'
-          src={require(`../images/aimas-logo-small.png`)}
+          src={modoOscuro ? require(`../images/aimas-logo-small-white.png`) : require(`../images/aimas-logo-small.png`)}
+
           alt='Aimas Small Logo'
           />
         </div>
