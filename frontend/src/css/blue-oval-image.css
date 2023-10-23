@@ -8,11 +8,13 @@
 .pincel-fondo {
     background-image: url('../images/pincel-fondo.png');
     background-color: #467BF7;
+    background-size: contain;
 }
 
 .lupa {
     background-image: url('../images/lupa.png');
     background-color: #5846F7;
+    background-size: contain;
     width: 35%;
 }
 
