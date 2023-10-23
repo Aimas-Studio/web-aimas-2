@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from 'react';
 import LogoAndImage from '../components/logo-and-image';
 import SocialDotsHeader from '../components/social-dots-header';
 import TextInfo from '../components/text-with-info';
@@ -8,12 +9,22 @@ import '../css/web-design.css';
 
 
 function WebDesign() {
+    const [modoOscuro, setModoOscuro] = useState(false);
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+    setModoOscuro(mediaQuery.matches);
+    const handler = (event) => setModoOscuro(event.matches);
+    mediaQuery.addEventListener('change', handler);
+    return () => mediaQuery.removeEventListener('change', handler);
+  }, []);
+
     return (
         <div className='WebDesign'>
             <SocialDotsHeader/>
 
             <LogoAndImage
-                logoImage='aimas-logo-small'
+                logoImage={modoOscuro ? 'aimas-logo-small-white' : 'aimas-logo-small'}
                 promoImage='cchang-promo-image'
             />
 

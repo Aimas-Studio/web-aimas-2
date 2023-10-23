@@ -5,4 +5,17 @@
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: nowrap;
+}
+
+
+
+@media screen and (max-width: 600px)
+{
+  .contenedor-header > .social-media-container  {
+    display: none;
   }
+  .contenedor-header {
+    justify-content: flex-end;
+  }
+
+}

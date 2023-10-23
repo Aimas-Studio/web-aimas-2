@@ -8,11 +8,13 @@
 .pincel-fondo {
     background-image: url('../images/pincel-fondo.png');
     background-color: #467BF7;
+    background-size: contain;
 }
 
 .lupa {
     background-image: url('../images/lupa.png');
     background-color: #5846F7;
+    background-size: contain;
     width: 35%;
 }
 
@@ -47,6 +49,9 @@
     .oval-image {
         display: none;
     }
+    .blue-oval-components-image > .oval-image {
+        display: initial;
+    }
     .BlueOvalComponentsImage{
         display: flex;
         justify-content: center;
@@ -56,6 +61,12 @@
         padding: 2% 5% 15% 5%;
     }
 }
+@media screen and (max-width: 600px) and (min-width: 581px) {
+    .blue-oval-components-image > .oval-image {
+        width: 17%;
+    }
+}
+
 @media screen and (max-width: 420px) {
     .lupa {
         width: 80%;

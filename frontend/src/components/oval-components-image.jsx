@@ -8,7 +8,7 @@ function OvalComponentsImage() {
     <div className="OvalComponentsImage">
             
         <div className='oval-components-image-container'>
-        <span className='oval-images-container'>
+        <span className='oval-images-container blue-oval-components-image'>
           <OvalImage
               image='aimas-studio-promo'
           />

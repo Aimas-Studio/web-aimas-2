@@ -1,4 +1,3 @@
-
 .social-media-container {
     display: flex;
     align-items: flex-start;
@@ -13,11 +12,24 @@
     padding: 1%;
 }
 
-@media only screen and (max-width: 600px) {
+.dropdown-item > .social-media-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding: 3%;
+}
 
+@media only screen and (max-width: 600px) {
     .logos {
         width: 15%;
         margin: 3%;
         padding: 1%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .dropdown-item > .social-media-container {
+        display: none;
     }
 }

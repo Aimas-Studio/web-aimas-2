@@ -7,18 +7,18 @@ function OvalComponents() {
     <div className="OvalComponents">
             
         <div className='oval-components-container'>
-        <span className='regular-ovals'>
-          <Oval
-              word1='Diseño'
-              word2='Gráfico'
-              imageColor='red'
-          />
-          <Oval
-              word1='Sitios'
-              word2='Webs'
-              imageColor='blue'
-          />
-        </span>
+          <span className='regular-ovals'>
+            <Oval
+                word1='Diseño'
+                word2='Gráfico'
+                imageColor='red'
+            />
+            <Oval
+                word1='Sitios'
+                word2='Webs'
+                imageColor='blue'
+            />
+          </span>
         <BlueOval
           word1='¿Quiénes somos?'
           word2='Somos un Estudio de Diseño especializado en la creación de marcas y sitios webs.'
