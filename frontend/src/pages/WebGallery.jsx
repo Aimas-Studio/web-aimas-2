@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react';
 
 function WebGallery() {
   //TODO LO QUE ESTÁ COMENTADO ES EL CODIGO QUE LO CONECTA CON EL BACKEND
-  /*const [projects, setProject] = useState([])
+  const [projects, setProject] = useState([])
 
   useEffect(()=> {
       async function fetchProject(){
@@ -40,22 +40,22 @@ function WebGallery() {
         />
           )}
     </div>    
-  );*/
-
-
-  return (
-    <div className="WebsDone">
-      <SocialDotsHeader/>
-          <Pagina
-          dir={require('../images/cchang-promo-image.png')}
-          mainText='CChang S.U.R.L'
-          secText='Página web institucional para empresa constructora CChang S.U.R.L. La misma contiene la descripción de la empresa, los servicios que ofrece, una galería de proyectos, su contacto y redes sociales.'
-          implementado='-IMPLEMENTADO-'
-          irSitio={true}
-          url={''}  
-        />
-    </div>    
   );
+
+
+  // return (
+  //   <div className="WebsDone">
+  //     <SocialDotsHeader/>
+  //         <Pagina
+  //         dir={require('../images/cchang-promo-image.png')}
+  //         mainText='CChang S.U.R.L'
+  //         secText='Página web institucional para empresa constructora CChang S.U.R.L. La misma contiene la descripción de la empresa, los servicios que ofrece, una galería de proyectos, su contacto y redes sociales.'
+  //         implementado='-IMPLEMENTADO-'
+  //         irSitio={true}
+  //         url={''}  
+  //       />
+  //   </div>    
+  // );
 }
 
 export default WebGallery;
