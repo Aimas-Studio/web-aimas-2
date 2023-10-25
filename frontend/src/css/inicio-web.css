@@ -1,5 +1,5 @@
 .top-container {
-    margin: 4%;
+    margin: 4% 0%;
 }
 
 /*PRIMERA COLUMNA*/
@@ -10,7 +10,7 @@
 .first-column {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
 }
 
@@ -23,7 +23,7 @@
     align-content: center;
 }
 .aimas-big-logo-image {
-    width: 100%;
+    width: 90%;
     margin: 6% 0%;
 }
 
@@ -34,7 +34,7 @@
     justify-content: space-between;
     margin: 3%;
     align-content: center;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .third-column {
@@ -90,7 +90,7 @@
         padding: 8% 0% 8% 0%;
     }
     .aimas-big-logo-image {
-        width: 50%;
+        width: 80%;
     }
 
     .solo-dots-container {
@@ -101,5 +101,9 @@
         flex-direction: row;
         align-content: flex-end;
         justify-content: flex-end;
+    }
+
+    .second-column {
+        width: 95%;
     }
 }

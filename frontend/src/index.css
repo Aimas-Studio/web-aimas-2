@@ -42,5 +42,13 @@ code {
 }
 
 .main-page-container {
-  margin: 3%;
+  margin: 3% 10%;
+  margin-bottom: 12%;
+}
+
+@media screen and (max-width: 600px)
+{  
+  .main-page-container {
+    margin: 4%;
+  }
 }

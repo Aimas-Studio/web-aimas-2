@@ -1,20 +1,27 @@
 .oval-container {
-    margin: 3%;
-    padding: 1%;
+    justify-content: center;
+    display: flex;
+    padding: 2% 3% 4% 3%;
     border: 2px solid #bcbcbc;
     border-radius: 20px;
     font-family: Poppins, sans-serif;
-    width: 15%;
+    width: 22%;
+    flex-direction: column;
+    align-content: center;
+    align-items: stretch;
 }
+
 .oval-p {
-    padding: 2px 2px;
-    font-size: 1.9rem;
-    margin-right: 5px;
+    font-size: 2.6vw;
     display: flex;
 }
 
+.oval-container-elements {
+    margin: 1%;
+}
+
 #oval-p-word1 {
-    font-family: PoppinsExBold;
+    font-family: PoppinsBold;
 }
 .circle {
     display: flex;
@@ -25,9 +32,7 @@
 }
 
 .check-image {
-    width: 15%;
-    margin-top: 3%;
-    margin-right: 3%;
+    width: 18%;
 }
 
 .oval-button-container {
@@ -41,20 +46,21 @@
 }
 
 .oval-button {
-    font-family: PoppinsLight;
-    border-radius: 8px;
+    font-family: Poppins;
+    border-radius: 6px;
     background: none;
     border: 2px solid #bcbcbc;
-    margin: 2px 2px;
-    padding: 2% 20%;
-    font-size: 1.2rem;
+    padding: 3% 20%;
+    font-size: 1.3vw;
     text-align: center;
     display: flex;
     align-content: center;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
+/*
 @media only screen and (max-width: 1180px) {
     .oval-button {
         font-size: 0.9rem;
@@ -106,3 +112,4 @@
         width: 40%;
     }
 }
+*/

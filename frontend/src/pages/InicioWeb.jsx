@@ -38,7 +38,7 @@ function InicioWeb() {
         </div>
 
         {/*SECOND COLUMN*/}
-        <div class="col-md-6">
+        <div class="col-md-6 second-column">
           <div className='big-logo-container'>
             <img
             className='aimas-big-logo-image'

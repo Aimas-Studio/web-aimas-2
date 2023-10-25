@@ -2,7 +2,6 @@ import React, {useState, useEffect} from 'react';
 import SocialDotsHeader from '../components/social-dots-header';
 import LogoAndImage from '../components/logo-and-image';
 import TextInfo from '../components/text-with-info';
-import BlueOval from '../components/blue-oval-promo';
 import BlueOvalImage from '../components/blue-oval-image';
 import OvalImage from '../components/oval-image';
 import ContratarInfoButtons from '../components/contratar-info-buttons';
