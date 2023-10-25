@@ -7,6 +7,7 @@ import OvalComponentsImage from '../components/oval-components-image';
 import DropDown from '../components/dropdown';
 import React, { useState, useEffect } from 'react';
 import '../css/inicio-web.css';
+import ThreeDots from '../components/three-dots';
 
 
 function InicioWeb() {
@@ -22,7 +23,7 @@ function InicioWeb() {
   }, []);
 
   return (
-    <div className="InicioWeb">
+    <div className="InicioWeb main-page-container">
             
       <div class="row top-container">
         
@@ -37,7 +38,7 @@ function InicioWeb() {
         </div>
 
         {/*SECOND COLUMN*/}
-        <div class="col-md-6">
+        <div class="col-md-6 second-column">
           <div className='big-logo-container'>
             <img
             className='aimas-big-logo-image'
@@ -50,7 +51,7 @@ function InicioWeb() {
         {/*THIRD COLUMN*/}
         <div class="col-md-3 third-column">
           <div className='third-column-container'>
-            <DropDown/>       
+            <ThreeDots/>      
             <SocialMedia/>
           </div>
         </div>

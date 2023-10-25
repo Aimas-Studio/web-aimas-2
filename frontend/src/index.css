@@ -40,3 +40,15 @@ code {
   font-family: Poppins, source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.main-page-container {
+  margin: 3% 10%;
+  margin-bottom: 12%;
+}
+
+@media screen and (max-width: 600px)
+{  
+  .main-page-container {
+    margin: 4%;
+  }
+}

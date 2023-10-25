@@ -18,10 +18,10 @@ function Pagina( { dir, mainText, secText, implementado, irSitio, url } )
       {secText}
     </p>
     <div className='contenedor-tags-texto'>
-      <p id='implementado-text'>
+      <p id='implementado-text' class='tags-texto'>
         { implementado }
       </p>
-      <a id='irsitio-text' href={irSitio ? url: ''}>
+      <a id='irsitio-text' class='tags-texto' href={irSitio ? url: ''}>
         {irSitio ? '-IR AL SITIO-': ''}
       </a>
       </div>      

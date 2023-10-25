@@ -1,27 +1,38 @@
 .blue-oval-container {
-    margin: 3%;
+    margin: 0% 3%;
     padding: 3%;
     border: 2px solid #bcbcbc;
     border-radius: 20px;
     font-family: Poppins, sans-serif;
-    width: 35%;
+    width: 40%;
     background-color: #467BF7;
 }
+
+.blue-oval-texts-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
 #no-image-blue-oval {
-    padding: 3%;
+    padding: 4% 5%;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .blue-oval-text {
     color: #fff;
     padding: 2px 2px;
-    font-size: 1.2rem;
+    font-size: 1.3vw;
     margin-right: 5px;
     display: flex;
 }
 
 #blue-oval-head-text {
     font-family: PoppinsExBold;
-    font-size: 1.5rem;
+    font-size: 2vw;
 }
 
 .oval-button-container {
@@ -41,8 +52,8 @@
     background: none;
     border: 1px solid #fff;
     margin: 5px 2px;
-    padding: 1% 11%;
-    font-size: 1.2rem;
+    padding: 1% 12%;
+    font-size: 1.3vw;
     text-align: center;
     display: flex;
     align-content: center;
@@ -53,7 +64,7 @@
 .back-image {
     width: 30%;
 }
-
+/*
 @media only screen and (max-width: 1180px) {
     .blue-oval-button {
         font-size: 0.9rem;
@@ -122,5 +133,5 @@
     .blue-oval-container #no-image-blue-oval {
         width: 70%;
     }
-}
+}*/
 

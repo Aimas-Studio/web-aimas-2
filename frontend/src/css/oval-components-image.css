@@ -10,30 +10,18 @@
     align-items: center;
 }
 
+.oval-components-image-inner-container {
+    height: auto;
+    width: 100%;
+    justify-content: space-between;
+    align-items: stretch;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 .oval-image {
-    width: 13%;
-    margin: 2%;
-}
-
-
-@media only screen and (max-width: 1400px) {
-    .oval-image {
-        width: 15%;
-    }
-}
-
-
-@media only screen and (max-width: 930px) {
-    .oval-image {
-        width: 23%;
-    }
-}
-
-
-@media only screen and (max-width: 700px) {
-    .oval-image {
-        width: 25%;
-    }
+    margin: 0%;
+    width: 22%;
 }
 
 @media only screen and (max-width: 600px) {

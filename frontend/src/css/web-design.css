@@ -2,10 +2,6 @@
     display: flex;
     justify-content: center;
 }
-.text-info-container {
-    padding: 1% 4%;
-    margin: 1%;
-}
 
 @media screen and (max-width: 1400px)
 {

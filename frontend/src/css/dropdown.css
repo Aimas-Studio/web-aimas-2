@@ -4,8 +4,13 @@
 }
 
 .dropdown-divider {
-    margin: 1% 10%;
-    border-top: 2px solid var(--bs-dropdown-divider-bg);
+    margin: 1% 7%;
+    border-top: 3px solid var(--bs-dropdown-divider-bg);
+}
+
+#dropdown-item-arrow {
+    padding-top: 4%;
+    padding-bottom: 14%;
 }
 
 .dropdown-toggle::after {
@@ -15,7 +20,12 @@
 .dropdown-menu {
     --bs-dropdown-padding-y: 2.5rem;
     --bs-dropdown-min-width: 12rem;
+    --bs-dropdown-padding-x: 1rem;
     border-radius: 20px;
+}
+
+.dropdown-item {
+    font-size: 1.4rem;
 }
 
 #dropdown-custom {
@@ -27,7 +37,9 @@
 #my-dropdown-menu {
         position: absolute;
         inset: 0px 0px auto auto;
-        transform: translate3d(9px, -27px, 0px);
+        transform: translate3d(42px, -27px, 0px);
+        width: 15rem;
+        height: 28rem;
 }
 
 .dropdown-item:active {

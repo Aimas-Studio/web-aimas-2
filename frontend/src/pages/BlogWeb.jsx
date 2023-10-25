@@ -28,7 +28,7 @@ function App() {
     }, []);
 
   return (
-    <div className="App">
+    <div className="BlogWeb main-page-container">
       <SocialDotsHeader/>
       <div className='contenedor-general'>
         {

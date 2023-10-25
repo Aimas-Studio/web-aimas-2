@@ -31,9 +31,13 @@
 
 .contenedor-tags-texto {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     font-family: PoppinsExLight;
     font-size: 1.2rem;
+}
+
+.tags-texto {
+    margin: 0% 2%;
 }
 
 #irsitio-text {
