@@ -1,14 +1,14 @@
 .social-media-container {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    align-content: flex-start;
-    padding: 3%;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding: 3% 2%;
 }
 
 .logos {
-    width: 22%;
-    margin: 5%;
+    width: 25%;
+    margin: 3% 12%;
     padding: 1%;
 }
 

@@ -34,7 +34,7 @@ function DropDown() {
             {/*MENU*/}
             <div drop="start" id="my-dropdown-menu" x-placement="bottom-start" aria-labelledby="dropdown-custom" data-popper-reference-hidden="false" data-popper-escaped="false" data-popper-placement="bottom-start" className={isActive ? 'show dropdown-menu' : 'dropdown-menu'} >
             
-              <Dropdown.Item eventKey="1" onClick={handleClick}>
+              <Dropdown.Item eventKey="1" onClick={handleClick} id='dropdown-item-arrow'>
                 <img 
                     src={leftArrow}                    
                 /> 

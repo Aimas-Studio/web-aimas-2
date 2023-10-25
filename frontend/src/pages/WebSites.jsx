@@ -22,7 +22,7 @@ function WebSites() {
   }, []);
     return (
         
-        <div className='WebSites'>
+        <div className='WebSites main-page-container'>
             <SocialDotsHeader/>
 
             <LogoAndImage

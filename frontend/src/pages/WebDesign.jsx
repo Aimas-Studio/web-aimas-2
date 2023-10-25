@@ -20,7 +20,7 @@ function WebDesign() {
   }, []);
 
     return (
-        <div className='WebDesign'>
+        <div className='WebDesign main-page-container'>
             <SocialDotsHeader/>
 
             <LogoAndImage

@@ -40,3 +40,7 @@ code {
   font-family: Poppins, source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.main-page-container {
+  margin: 3%;
+}
