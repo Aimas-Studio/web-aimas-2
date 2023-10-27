@@ -17,13 +17,42 @@
     width: 100%;
 }
   
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
     .oval-components-container {
-        display: inline-flex;
+        display: flex;
         justify-content: center;
         flex-wrap: wrap;
         align-items: center;
         justify-items: center;
+    }
+    .oval-components-inner-container {
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: auto;
+    }
+    .regular-ovals {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: center;
+        align-items: stretch;
+        margin: 2% 0%;
+        position: initial;
+        width: 80%;
+    }
+
+    .regular-ovals > .oval-container {
+        border-radius: 5px;
+        width: 40%;
+        margin: 0% 1%;
+    }
+
+    #no-image-blue-oval {
+        border-radius: 5px;
+        width: 80%;
     }
 
 }

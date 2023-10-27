@@ -41,21 +41,6 @@ function WebGallery() {
           )}
     </div>    
   );
-
-
-  // return (
-  //   <div className="WebsDone">
-  //     <SocialDotsHeader/>
-  //         <Pagina
-  //         dir={require('../images/cchang-promo-image.png')}
-  //         mainText='CChang S.U.R.L'
-  //         secText='Página web institucional para empresa constructora CChang S.U.R.L. La misma contiene la descripción de la empresa, los servicios que ofrece, una galería de proyectos, su contacto y redes sociales.'
-  //         implementado='-IMPLEMENTADO-'
-  //         irSitio={true}
-  //         url={''}  
-  //       />
-  //   </div>    
-  // );
 }
 
 export default WebGallery;

@@ -4,7 +4,7 @@
 
 /*PRIMERA COLUMNA*/
 .aimas-small-logo-image {
-    width: 55%;
+    width: 60%;
 }
 
 .first-column {
@@ -60,9 +60,9 @@
 }
 
 .third-column-container > .three-dots-container {
-        padding-left: 42%;
-        padding-top: 9%;
-        padding-bottom: 9%;
+    padding-left: 42%;
+    padding-top: 9%;
+    padding-bottom: 9%;
 }
 
 .third-column-container > .social-media-container {
@@ -75,23 +75,28 @@
     }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 770px) and (min-width: 501px) {    
+    .aimas-big-logo-image {
+        width: 80%;
+    }
     .first-column {
         display: none;
     }
+    .second-column {
+        width: 80%;
+    }
     .third-column {
-        position: absolute;
+        width: 15%;
     }
     .third-column-container > .social-media-container {
         display: none;
     }
+    /*
     .solo-dots {
         width: 110%;
         padding: 8% 0% 8% 0%;
     }
-    .aimas-big-logo-image {
-        width: 80%;
-    }
+
 
     .solo-dots-container {
         display: flex;
@@ -101,9 +106,24 @@
         flex-direction: row;
         align-content: flex-end;
         justify-content: flex-end;
-    }
+    }*/
+}
+@media screen and (max-width: 600px) {
 
+    .third-column-container > .three-dots-container {
+        border: none;
+        padding: 1%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .oval-p {
+        font-size: 3vw;
+    }
+    .third-column {
+        display: none;
+    }
     .second-column {
-        width: 95%;
+        width: 100%;
     }
 }
