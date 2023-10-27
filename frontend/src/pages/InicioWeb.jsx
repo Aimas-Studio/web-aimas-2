@@ -9,36 +9,30 @@ import React, { useState, useEffect } from 'react';
 import '../css/inicio-web.css';
 import ThreeDots from '../components/three-dots';
 
-
 function InicioWeb() {
+  const esOpera = (!!window.opr) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
 
-  const [modoOscuro, setModoOscuro] = useState(false);
+  const modoOscuroActivado = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
-  useEffect(() => {
-    const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-    setModoOscuro(mediaQuery.matches);
-    const handler = (event) => setModoOscuro(event.matches);
-    mediaQuery.addEventListener('change', handler);
-    return () => mediaQuery.removeEventListener('change', handler);
-  }, []);
+  const changeMedia = esOpera && modoOscuroActivado;
+  
 
   return (
     <div className="InicioWeb main-page-container">
-            
-      <div class="row top-container">
+      <div className="row top-container">
         
         {/*FIRST COLUMN*/}
-        <div class="col-md-3 first-column">
+        <div className="col-md-3 first-column">
         <img
           className='aimas-small-logo-image'
-          src={modoOscuro ? require(`../images/aimas-logo-small-white.png`) : require(`../images/aimas-logo-small.png`)}
+          src={changeMedia ? require(`../images/aimas-logo-small-white.png`) : require(`../images/aimas-logo-small.png`)}
 
           alt='Aimas Small Logo'
           />
         </div>
 
         {/*SECOND COLUMN*/}
-        <div class="col-md-6 second-column">
+        <div className="col-md-6 second-column">
           <div className='big-logo-container'>
             <img
             className='aimas-big-logo-image'
@@ -49,7 +43,7 @@ function InicioWeb() {
         </div>
 
         {/*THIRD COLUMN*/}
-        <div class="col-md-3 third-column">
+        <div className="col-md-3 third-column">
           <div className='third-column-container'>
             <ThreeDots/>      
             <SocialMedia/>

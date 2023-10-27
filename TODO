@@ -1,10 +1,20 @@
-Ajustar fotos de WebGallery (firefox)
+# Cambios pendientes
 
-Arreglar inicio web versión móvil. (código comentado)
+## - Ajustar fotos de WebGallery (firefox)
 
-Añadir enlaces a otras páginas del menú
+## - Inicio Web versión móvil
 
-Arreglar Blog Web
-Arreglar Web Design
-Arreglar Web Gallery
-Arreglar Web Sites
+- Agregar three dots en < 500px
+- Ajustar todos los tamaños.
+- Borrar todo el código comentado.
+- Evitar media queries innecesarios.
+- Ajustar anchos y altos automáticamente.
+
+## - Añadir enlaces a otras páginas del menú
+
+- Arreglar Blog Web
+- Arreglar Web Design
+- Arreglar Web Gallery
+- Arreglar Web Sites
+
+## Instalar ResponsiveApp  
