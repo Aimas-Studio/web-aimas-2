@@ -37,14 +37,8 @@ function WebGallery() {
           implementado={project.type}
           irSitio={project.site}
           url={project.url}  
-<<<<<<< HEAD
-          />
-        )
-        }
-=======
         />
           )}
->>>>>>> 1fab00ad591d7178398477c15050f0de52365d99
     </div>    
   );
 
