@@ -1,10 +1,15 @@
-Ajustar fotos de WebGallery (firefox)
+## Ajustar fotos de WebGallery (firefox)
 
-Arreglar inicio web versión móvil. (código comentado)
+## Inicio Web versión móvil:
+- Agregar three dots en < 500px
+- Ajustar todos los tamaños.
+- Borrar todo el código comentado.
+- Evitar media queries innecesarios.
+- Ajustar anchos y altos automáticamente.
 
-Añadir enlaces a otras páginas del menú
+## Añadir enlaces a otras páginas del menú
 
-Arreglar Blog Web
-Arreglar Web Design
-Arreglar Web Gallery
-Arreglar Web Sites
+- Arreglar Blog Web
+- Arreglar Web Design
+- Arreglar Web Gallery
+- Arreglar Web Sites

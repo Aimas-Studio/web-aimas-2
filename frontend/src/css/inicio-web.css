@@ -126,4 +126,7 @@
     .second-column {
         width: 100%;
     }
+    .first-column {
+        display: none;
+    }
 }
