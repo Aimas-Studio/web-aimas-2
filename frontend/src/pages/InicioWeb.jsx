@@ -6,8 +6,9 @@ import TextInfoButton from '../components/text-info-button';
 import OvalComponentsImage from '../components/oval-components-image';
 import DropDown from '../components/dropdown';
 import React, { useState, useEffect } from 'react';
-import '../css/inicio-web.css';
 import ThreeDots from '../components/three-dots';
+import '../css/inicio-web.css';
+
 
 function InicioWeb() {
   const esOpera = (!!window.opr) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;

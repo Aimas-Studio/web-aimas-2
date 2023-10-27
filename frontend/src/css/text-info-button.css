@@ -1,4 +1,4 @@
-.text-info-container {
+.text-info-inner-container {
     padding: 1% 0%;
     margin: 2% 0%;
 }
@@ -36,17 +36,40 @@
     align-content: center;
 }
 
-/*
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 500px) {
     .main-text {
-        font-size: 1.5rem;
+        font-size: 6vw;
     }
     .sec-text {
-        font-size: 1.2rem;
+        font-size: 4vw;
+    }
+    .main-text, .sec-text
+    {
+        text-align: center;
+    }
+    .text-info-inner-container {
+        width: 80%;
+        margin: 5% 0%;
+    }
+    .text-info-container {
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .oval-button-container {
+        justify-content: center;
+    }
+    .button-text {
+        border-radius: 8px;
+        font-size: 2.8vw;
+        padding: 1.5% 5%;
+        min-width: 60%;
     }
 }
 
-
+/*
 @media screen and (max-width: 600px) {
     .main-text {
         font-size: 1.3rem;

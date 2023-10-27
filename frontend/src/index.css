@@ -49,6 +49,6 @@ code {
 @media screen and (max-width: 600px)
 {  
   .main-page-container {
-    margin: 4%;
+    margin: 15% 4%;
   }
 }
