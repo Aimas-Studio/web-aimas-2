@@ -31,10 +31,15 @@ function InicioWeb() {
           alt='Aimas Small Logo'
           />
         </div>
-
+        
+        <ThreeDots
+          specialId='second-column-three-dots'
+        />
+        
         {/*SECOND COLUMN*/}
         <div className="col-md-6 second-column">
           <div className='big-logo-container'>
+                
             <img
             className='aimas-big-logo-image'
             src={require(`../images/aimas-logo-big.png`)}

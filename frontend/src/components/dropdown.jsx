@@ -16,6 +16,13 @@ function DropDown() {
         // toggle isActive state on click
         setIsActive(current => !current);
     }
+    if (isActive) {
+      // If the menu is being opened, add the no-scroll class to the body
+      document.body.classList.add('no-scroll');
+  } else {
+      // If the menu is being closed, remove the no-scroll class from the body
+      document.body.classList.remove('no-scroll');
+  }
 
   return (
     <div className='dropdown-three-dots-container'>
@@ -32,7 +39,7 @@ function DropDown() {
             </Dropdown.Toggle>
             
             {/*MENU*/}
-            <div drop="start" id="my-dropdown-menu" x-placement="bottom-start" aria-labelledby="dropdown-custom" data-popper-reference-hidden="false" data-popper-escaped="false" data-popper-placement="bottom-start" className={isActive ? 'show dropdown-menu' : 'dropdown-menu'} >
+            <div drop="end" id="my-dropdown-menu" x-placement="bottom-start" aria-labelledby="dropdown-custom" data-popper-reference-hidden="false" data-popper-escaped="false" data-popper-placement="bottom-start" className={isActive ? 'show dropdown-menu' : 'dropdown-menu'} >
             
               <Dropdown.Item eventKey="1" onClick={handleClick} id='dropdown-item-arrow'>
                 <img 
@@ -54,7 +61,7 @@ function DropDown() {
               <Dropdown.Item eventKey="6">Blog</Dropdown.Item>
               <Dropdown.Divider />
 
-              <Dropdown.Item eventKey="7">
+              <Dropdown.Item eventKey="7"  className='social-media-in-menu'>
                 <SocialMedia/>
               </Dropdown.Item>
 
