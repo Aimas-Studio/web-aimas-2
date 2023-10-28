@@ -5,6 +5,7 @@ import TextInfo from '../components/text-with-info';
 import BlueOvalComponentsImage from '../components/blue-oval-components-image';
 import ContratarInfoButtons from '../components/contratar-info-buttons';
 import BlueOvalImageText from '../components/blue-oval-image-text';
+import OnlyText from '../components/only-text';
 import '../css/web-design.css';
 
 
@@ -40,13 +41,11 @@ function WebDesign() {
                 secText='Si tiene una idea de negocio nosotros lo ayudamos a materializarla.'
                 backImage='pincel-fondo'
             />
-            <TextInfo
-                mainText=''
-                secText='Diseñamos el nombre de su empresa, su identificador visual (Logotipo) y las aplicaciones del mismo pautados en un manual de identidad visual.'
+            <OnlyText
+                text='Diseñamos el nombre de su empresa, su identificador visual (Logotipo) y las aplicaciones del mismo pautados en un manual de identidad visual.'
             />
-            <TextInfo
-                mainText=''
-                secText='Este servicio incluye el diseño de todos los soportes necesarios para la marca como sus redes sociales, catálogos o cartas menú, tarjetas de presentación, uniformes y más.'
+            <OnlyText
+                text='Este servicio incluye el diseño de todos los soportes necesarios para la marca como sus redes sociales, catálogos o cartas menú, tarjetas de presentación, uniformes y más.'
             />
 
             <ContratarInfoButtons
@@ -64,9 +63,11 @@ function WebDesign() {
                 backImage='lupa'
             />
 
-            <TextInfo
-                mainText=''
-                secText='En este servicio le ofrecemos distintos paquetes que incluyen la creación de un plan temático de contenido, el diseño de post y edición de videos y la publicación de los mismos, garantizando siempre un aumento de la cantidad de seguidores.'
+            <OnlyText
+                text='En este servicio le ofrecemos distintos paquetes que incluyen la creación de un plan temático de contenido, el diseño de post y edición de videos y la publicación de los mismos.'
+            />
+            <OnlyText
+                text='Garantizando siempre un aumento de la cantidad de seguidores.'
             />
             
             <ContratarInfoButtons

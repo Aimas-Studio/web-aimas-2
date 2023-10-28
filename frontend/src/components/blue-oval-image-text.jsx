@@ -20,7 +20,6 @@ function BlueOvalImageText( {mainText, secText, backImage} ) {
               <p className='texto-largo'>
                 • Creación de tarjetas de presentación. • Catálogos digitales o cartas menú. • Diseño o rediseño de logotipo. • Cartel publicitario para redes sociales. • Identificador y papelería para evento.
                 <br/>
-                <br/>
                 De igual manera puede contactarnos, será un placer atenderle.
               </p>
               </div>
@@ -30,6 +29,7 @@ function BlueOvalImageText( {mainText, secText, backImage} ) {
                 color2='#C9E8F8'
                 colorT1='#fff'
                 colorT2='#003070'
+                idLast='isLast'
               />
               </div>
             </div>

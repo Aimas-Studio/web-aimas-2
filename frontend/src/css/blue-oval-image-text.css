@@ -4,22 +4,36 @@
     align-items: center;
 }
 
+.my-row {
+    align-items: stretch;
+    justify-content: space-between;
+    align-content: center;    
+}
+
 .texto-largo {
-    font-family: PoppinsLight;
-    margin-right: 8%;
+    font-family: Poppins;
+    font-size: 1.5vw;
+    color: #707070;
 }
 
 .column-first {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 40%;
+
+}
+.column-second {
+    width: 55%;
+}
+.column-first, 
+    .column-second {
+        height: auto;
 }
 
 .varita {
-    width: 80%;
+    width: 100%;
     padding: 7% 5% 13% 5%;
+    height: 100%;
 }
 
-.column-sized-12 {
-    margin: 3%;
-}

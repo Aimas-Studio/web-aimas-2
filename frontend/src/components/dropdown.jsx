@@ -37,7 +37,7 @@ function DropDown() {
             </Dropdown.Toggle>
             
             {/*MENU*/}
-            <div drop="end" id="my-dropdown-menu" x-placement="bottom-start" aria-labelledby="dropdown-custom" data-popper-reference-hidden="false" data-popper-escaped="false" data-popper-placement="bottom-start" className={isActive ? 'show dropdown-menu' : 'dropdown-menu'} >
+            <div drop="end" id={isActive ? 'my-dropdown-menu' : ''} x-placement="bottom-start" aria-labelledby="dropdown-custom" data-popper-reference-hidden="false" data-popper-escaped="false" data-popper-placement="bottom-start" className={isActive ? 'show dropdown-menu' : 'no-show'} >
             
             <div className='dropdown-items-container'>
               <Dropdown.Item eventKey="1" onClick={handleClick} id='dropdown-item-arrow'>

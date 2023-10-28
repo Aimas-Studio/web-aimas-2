@@ -4,6 +4,11 @@
     height: 100%;
 }
 
+
+.no-show {
+    display: none;
+}
+
 .dropdown-three-dots-container {
     display: flex;
     justify-content: center;
@@ -58,6 +63,10 @@
     display: none;
 }
 @media (max-width: 500px) {
+    
+    .no-show {
+        display: none;
+    }
     .dropdown-menu {
       position: fixed;
       top: 0;

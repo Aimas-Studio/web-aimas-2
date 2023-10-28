@@ -8,6 +8,7 @@ function BlueOvalComponentsImage( {image1, image2, mainText, secText, backImage}
     <div className="BlueOvalComponentsImage">
             
         <div className='oval-components-image-container'>
+          <div className='oval-components-image-inner-container'>
             <span className='oval-images-container'>
               <OvalImage
                   image={image1}
@@ -21,6 +22,7 @@ function BlueOvalComponentsImage( {image1, image2, mainText, secText, backImage}
               word2={secText}
               background = {backImage}
             />
+          </div>
       </div>     
     </div>   
   );

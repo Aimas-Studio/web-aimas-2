@@ -11,9 +11,6 @@
     align-items: flex-end;
 }
 
-.blue-oval-container {
-    background-size: cover;
-}
 
 .mac-design {
     margin: 3%;
@@ -24,14 +21,11 @@
     width: 17%;
 }
 
-.cont-info-but-container {
-    margin-left: 7%;
-}
 
 .rueditas {
     background-image: url('../images/rueditas.png');
     background-color: #4EB3E7;
-    width: 37%;
+    width: 40%;
 }
 
 .flecha {
