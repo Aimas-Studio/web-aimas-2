@@ -6,8 +6,6 @@ import '../css/three-dots.css'
 import '../css/dropdown.css'
 import SocialMedia from './social-media';
 
-
-
 function DropDown() {
 
     const [isActive, setIsActive] = useState(false);
@@ -40,12 +38,13 @@ function DropDown() {
             
             {/*MENU*/}
             <div drop="end" id="my-dropdown-menu" x-placement="bottom-start" aria-labelledby="dropdown-custom" data-popper-reference-hidden="false" data-popper-escaped="false" data-popper-placement="bottom-start" className={isActive ? 'show dropdown-menu' : 'dropdown-menu'} >
-            
+              
               <Dropdown.Item eventKey="1" onClick={handleClick} id='dropdown-item-arrow'>
                 <img 
                     src={leftArrow}                    
                 /> 
-              </Dropdown.Item>
+              </Dropdown.Item>              
+              
               <Dropdown.Item eventKey="2">Inicio</Dropdown.Item>
               
               <Dropdown.Divider />
@@ -62,14 +61,14 @@ function DropDown() {
               <Dropdown.Divider />
 
               <Dropdown.Item eventKey="7"  className='social-media-in-menu'>
-                <SocialMedia/>
+                <SocialMedia
+                  isMenuLogos='true'
+                />
               </Dropdown.Item>
 
               </div>         
         </Dropdown>
-    </div>
-
-      
+    </div>      
   );
 }
 

@@ -2,7 +2,7 @@ import React from 'react';
 import { useEffect, useState } from 'react';
 import '../css/social-media.css'
 
-function SocialMedia()
+function SocialMedia( {isMenuLogos} )
 {
 
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -17,7 +17,7 @@ function SocialMedia()
     };
   }, []);
 
-  const dir = windowWidth < 501 ? 'grey' : 'logo';
+  const dir = (windowWidth < 501 && isMenuLogos=='true')? 'grey' : 'logo';
 
   return (
     

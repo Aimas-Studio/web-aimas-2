@@ -2,13 +2,11 @@
 
 ## - Ajustar fotos de WebGallery (firefox)
 
-## - Inicio Web
-
-- Borrar todo el código comentado.
-
 ## - Añadir enlaces a otras páginas del menú
 
 - Arreglar Blog Web
 - Arreglar Web Design
 - Arreglar Web Gallery
 - Arreglar Web Sites
+
+### Instalar react-router-dom

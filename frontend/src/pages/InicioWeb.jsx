@@ -1,11 +1,8 @@
 import SocialMedia from '../components/social-media';
-import SoloDots from '../components/solo-dots';
 import OvalComponents from '../components/oval-components';
 import TextInfo from '../components/text-with-info';
 import TextInfoButton from '../components/text-info-button';
 import OvalComponentsImage from '../components/oval-components-image';
-import DropDown from '../components/dropdown';
-import React, { useState, useEffect } from 'react';
 import ThreeDots from '../components/three-dots';
 import '../css/inicio-web.css';
 
@@ -31,7 +28,6 @@ function InicioWeb() {
           alt='Aimas Small Logo'
           />
         </div>
-        
         <ThreeDots
           specialId='second-column-three-dots'
         />
