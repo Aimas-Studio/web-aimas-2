@@ -1,5 +1,7 @@
 .top-container {
-    margin: 4% 0%;
+    margin: 7.5% 0%;
+    height: 80vh;
+    min-height: 40vh;
 }
 
 /*PRIMERA COLUMNA*/
@@ -23,8 +25,12 @@
     align-content: center;
 }
 .aimas-big-logo-image {
-    width: 90%;
+    width: 100%;
     margin: 6% 0%;
+}
+.second-column {
+    display: flex;
+    justify-content: center;
 }
 
 /*TERCERA COLUMNA*/
@@ -68,6 +74,13 @@
 
 .third-column-container > .social-media-container {
     width: auto;
+    justify-content: flex-end;
+}
+
+.third-column-container > .social-media-container > .logos {
+    width: 25%;
+    margin: 0%;
+    margin-left: 18%;
 }
 
 /* ---------     Mostar footer en versión móvil       ---------*/
@@ -87,9 +100,6 @@
 /* ---   Arreglar ajustes de las columnas porque bootstrap los cambia   --- */
 
 @media screen and (max-width: 770px) and (min-width: 501px) {    
-    .aimas-big-logo-image {
-        width: 80%;
-    }
     .first-column {
         width: 25%;
     }

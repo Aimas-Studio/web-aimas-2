@@ -1,15 +1,15 @@
 .social-media-container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     align-content: center;
-    padding: 3% 2%;
-    width: 30%;
+    padding: 3% 0%;
+    width: 25%;
 }
 
 .logos {
-    width: 25%;
-    margin: 3% 10%;
+    width: 15%;
+    margin: 0% 13% 0% 0%;
     padding: 1%;
 }
 
