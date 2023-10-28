@@ -1,10 +1,13 @@
 # Cambios pendientes
 
-## - Ajustar fotos de WebGallery (firefox)
+## - Conectar botones
 
-## - Añadir enlaces a otras páginas del menú
+### - Añadir enlaces a las páginas del menú
 
-- Arreglar Web Design
-- Arreglar Web Sites
+- Web Design
+- Web Sites
+- Inicio
+- Web Gallery
+- Blog Web
 
 ### Instalar react-router-dom

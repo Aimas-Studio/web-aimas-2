@@ -68,17 +68,3 @@
         min-width: 60%;
     }
 }
-
-/*
-@media screen and (max-width: 600px) {
-    .main-text {
-        font-size: 1.3rem;
-    }
-    .sec-text {
-        font-size: 1rem;
-    }
-    .button-text {
-        font-size: 0.8rem;
-    }
-}
-*/

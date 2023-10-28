@@ -1,10 +1,10 @@
 import '../css/contratar-info-buttons.css'
 
-function ContratarInfoButtons( {color1, color2, colorT1, colorT2} )
+function ContratarInfoButtons( {color1, color2, colorT1, colorT2, idLast} )
 {
   return (
     
-        <div className='cont-info-but-container'>
+        <div className='cont-info-but-container' id={idLast}>
             <button 
                 className='contratar-button cont-info-but' 
                 style = {{backgroundColor: color1, color: colorT1}}

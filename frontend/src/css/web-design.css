@@ -3,51 +3,24 @@
     justify-content: center;
 }
 
-@media screen and (max-width: 1400px)
+@media screen and (max-width: 500px)
 {
+    #special-text-info {
+        text-align: left;
+        margin: 5% 0%;
+        font-size: 3.5vw;
+    }
+    #special-text-info.main-text {
+        font-size: 6vw;
+    }
+
+    .pincel-fondo, 
+    .lupa,
     .varita {
-        width: 95%;  
-        height: 80%;  
-    }
-}
-
-@media screen and (max-width: 1000px)
-{
-    .texto-largo {
-        margin: 1% 4% 1% 1%;
-    }
-}
-@media screen and (max-width: 890px)
-{
-    .varita {
-        height: 68%;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .logos {
-        width: 12%;
-        margin: 5%;
-        padding: 0%;
-    }
-
-    .my-row {
-        flex-wrap: wrap;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-    }
-    .column-first {
-        width: 70%;
-    }
-    .column-second {
         width: 100%;
+        height: 40vw;
     }
-    .cont-info-but-container {
-        margin: 1%;
-    }
-    .column-sized-12 {
-        padding: 0% 0%;
+    .my-row {
+        flex-direction: column;
     }
 }

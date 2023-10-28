@@ -6,6 +6,7 @@ import BlueOvalImage from '../components/blue-oval-image';
 import OvalImage from '../components/oval-image';
 import ContratarInfoButtons from '../components/contratar-info-buttons';
 import BlueOvalImageAndImage from '../components/blue-oval-image-and-image';
+import OnlyText from '../components/only-text';
 import '../css/web-sites.css';
 
 
@@ -41,9 +42,8 @@ function WebSites() {
                 image='frank-web'
             />
 
-            <TextInfo
-                mainText=''
-                secText='Sitio Web sencillo que contiene una descripción de su empresa, imágenes de los productos y/o servicios que ofrece y botones de contacto.'
+            <OnlyText
+                text='Sitio Web sencillo que contiene una descripción de su empresa, imágenes de los productos y/o servicios que ofrece y botones de contacto.'
             />
             <ContratarInfoButtons
                 color1='#467BF7'
@@ -61,9 +61,11 @@ function WebSites() {
                 <OvalImage
                     image='promo-web-design'
                 />
-                <OvalImage
-                    image='mac-design'
-                />
+                <div className='mac-design-container'>
+                    <OvalImage
+                        image='mac-design'
+                    />
+                </div>
             </div>
 
             <TextInfo

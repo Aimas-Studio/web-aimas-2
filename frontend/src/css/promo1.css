@@ -23,8 +23,9 @@
 }
 
 .texto-principal {
-    font-family: PoppinsBold;
+    font-family: Poppins;
     font-size: 2.5vw;
+    font-weight: bolder;
     letter-spacing: 1px;
 }
 

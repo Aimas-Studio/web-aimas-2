@@ -1,8 +1,8 @@
 .blue-oval-container {
-    margin: 0% 3%;
+    margin: 0%;
     padding: 3%;
     border: 2px solid #bcbcbc;
-    border-radius: 20px;
+    border-radius: 15px;
     font-family: Poppins, sans-serif;
     width: 40%;
     background-color: #467BF7;
@@ -88,75 +88,3 @@
     }
     
 }
-
-/*
-@media only screen and (max-width: 1180px) {
-    .blue-oval-button {
-        font-size: 0.9rem;
-    }
-    .blue-oval-text {
-        font-size: 1rem;
-    }
-}
-
-@media only screen and (max-width: 890px) {
-    .blue-oval-button {
-        font-size: 0.7rem;
-    }
-    .blue-oval-text {
-        font-size: 0.9rem;
-    }
-    #blue-oval-head-text {
-        font-size: 1.1rem;
-    }
-}
-
-@media only screen and (max-width: 760px) {
-    .blue-oval-container, 
-    #no-image-blue-oval {
-        width: 40%;
-    }
-}
-
-@media only screen and (max-width: 640px) {
-    .blue-oval-container, 
-    #no-image-blue-oval{
-        width: 43%;
-    }
-}
-
-
-@media only screen and (max-width: 600px) {
-    .blue-oval-button {
-        font-size: 0.6rem;
-    }
-    .blue-oval-text {
-        font-size: 0.8rem;
-    }
-    #blue-oval-head-text {
-        font-size: 1rem;
-    }
-}
-
-@media only screen and (max-width: 580px) {
-    .blue-oval-button {
-        font-size: 0.7rem;
-    }
-    .blue-oval-text {
-        font-size: 0.9rem;
-    }
-    #blue-oval-head-text {
-        font-size: 1.1rem;
-    }
-    .blue-oval-container,
-     #no-image-blue-oval{
-        width: 65%;
-    }
-}
-
-@media only screen and (max-width: 340px) {
-    .blue-oval-container #no-image-blue-oval {
-        width: 70%;
-    }
-}*/
-

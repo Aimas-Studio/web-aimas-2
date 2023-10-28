@@ -1,123 +1,69 @@
+.movil, .rueditas, .flecha {
+    width: 45%;
+    background-size: cover;
+}
+
 .frank-web, .camion {
-    width: 40%;
+    width: 50%;
     border-radius: 15px;
-    height: 22rem;
+    height: auto;
 
 }
 
 .container-blue-oval-two-images {
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    justify-content: space-between;
+    align-items: stretch;
 }
 
-.blue-oval-container {
-    background-size: cover;
+.first-two-images {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+
+
+.promo-web-design {
+    width: 25%;
+    height: 100%;
 }
 
 .mac-design {
-    margin: 3%;
+    height: fit-content;
+    width: 100%;
 }
 
-.promo-web-design {
-    margin: 3%;
-    width: 17%;
+.mac-design-container {
+    display: flex;
+    align-items: flex-end;
+    height: auto;
+    justify-content: flex-end;
+    width: 25%;
+    align-content: flex-end;
 }
 
-.cont-info-but-container {
-    margin-left: 7%;
-}
 
 .rueditas {
     background-image: url('../images/rueditas.png');
     background-color: #4EB3E7;
-    width: 37%;
 }
 
 .flecha {
     background-image: url('../images/flecha.png');
     background-color: #0086CB;
 }
-
-@media screen and (min-width: 2200px) {
-    .camion, .frank-web {
-        height: 25rem;
-    }   
-}
-@media screen and (max-width: 1900px) {
-    .camion, .frank-web {
-        height: 21rem;
-    }   
-}
-@media screen and (min-width: 1630px) {
+@media screen and (max-width: 500px) {
+    .frank-web,
+    .camion,
+    .mac-design-container,
     .promo-web-design {
-        width: 15.5%;
-    }    
-}
-@media screen and (max-width: 1630px) {
-    .camion, .frank-web {
-        height: 19rem;
-    }   
-}
-
-@media screen and (max-width: 1180px) {
-    .camion, .frank-web {
-        height: 15rem;
-    }   
-}
-@media screen and (max-width: 1000px) and (min-width: 901px) {
-    .camion, .frank-web {
-        height: 14rem;
-    }   
-}
-
-@media screen and (max-width: 980px) {
-    .promo-web-design {
-        margin: 3% 2%;
-    }    
-}
-
-@media screen and (max-width: 930px) {
-    .mac-design {
-        width: 15%;
-    }    
-    .rueditas {
-        width: 40%;
-    }  
-    .frank-web {
-        height: 12rem;
+        display: none;
     }
-}
-
-@media screen and (max-width: 890px) {
-    .camion {
-        height: 13rem;
-    }   
-
-}
-
-@media screen and (max-width: 760px) and (min-width: 601px) {
-    .rueditas {
-        background-size: contain;
-    } 
-    .camion {
-        height: 12rem;
+    .movil, .rueditas, .flecha {
+        width: 100%;
+        background-size: cover;
+        height: 40vw;
     }
-    .frank-web {
-        height: 11rem;
-    }  
-}
-
-
-
-@media screen and (max-width: 600px) {
-    .rueditas {
-        width: 80%;
-    }   
-}
-
-@media screen and (max-width: 316px) and (min-width: 301px) {
-    .rueditas {
-        background-size: contain;
-    }   
+    
 }
