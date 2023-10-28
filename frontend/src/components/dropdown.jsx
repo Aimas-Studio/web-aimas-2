@@ -38,7 +38,8 @@ function DropDown() {
             
             {/*MENU*/}
             <div drop="end" id="my-dropdown-menu" x-placement="bottom-start" aria-labelledby="dropdown-custom" data-popper-reference-hidden="false" data-popper-escaped="false" data-popper-placement="bottom-start" className={isActive ? 'show dropdown-menu' : 'dropdown-menu'} >
-              
+            
+            <div className='dropdown-items-container'>
               <Dropdown.Item eventKey="1" onClick={handleClick} id='dropdown-item-arrow'>
                 <img 
                     src={leftArrow}                    
@@ -59,12 +60,16 @@ function DropDown() {
               <Dropdown.Divider />
               <Dropdown.Item eventKey="6">Blog</Dropdown.Item>
               <Dropdown.Divider />
+              
+              
+            </div>
 
-              <Dropdown.Item eventKey="7"  className='social-media-in-menu'>
+
+              <div  className='social-media-in-menu'>
                 <SocialMedia
                   isMenuLogos='true'
                 />
-              </Dropdown.Item>
+              </div>
 
               </div>         
         </Dropdown>
