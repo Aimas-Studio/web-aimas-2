@@ -1,5 +1,6 @@
 import SocialDotsHeader from '../components/social-dots-header';
 import Pagina from '../components/promo2'
+import DesapearText from '../components/desapearing-text';
 import { useState, useEffect } from 'react';
 
 
@@ -28,6 +29,9 @@ function WebGallery() {
   return (
     <div className='WebGallery main-page-container'>
       <SocialDotsHeader/>
+      <DesapearText
+        text='Galería'  
+      />
       {
         projects.map((project) =>
           <Pagina

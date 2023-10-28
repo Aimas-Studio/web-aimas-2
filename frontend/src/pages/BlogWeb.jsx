@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
-import Portada from '../components/promo1'
+import Portada from '../components/promo1';
 import SocialDotsHeader from '../components/social-dots-header';
 import OvalComponents from '../components/oval-components';
+import DesapearText from '../components/desapearing-text';
 import '../css/blog-web.css';
 
 function App() {
@@ -29,9 +30,9 @@ function App() {
     <div className="BlogWeb main-page-container">
       <SocialDotsHeader/>
 
-      <p className='show-text'>
-        Blog
-      </p>
+      <DesapearText
+        text='Blog'
+      />
 
       <div className='contenedor-general'>
         {

@@ -1,0 +1,11 @@
+.show-text {
+    font-family: PoppinsBold;
+    font-size: 5.5vw;
+}
+
+
+@media screen and (min-width: 501px) {
+    .show-text {
+        display: none;  
+    }
+}
