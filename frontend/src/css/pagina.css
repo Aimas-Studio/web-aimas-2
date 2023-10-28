@@ -15,11 +15,11 @@
     display: flex;
     justify-content: flex-start;
     font-family: PoppinsExLight;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
 }
 
 .tags-texto {
-    margin: 0% 3%;
+    margin-right: 14%;
     letter-spacing: 2px;
 }
 

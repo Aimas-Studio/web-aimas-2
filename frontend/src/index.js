@@ -11,11 +11,7 @@ import InicioWeb from './pages/InicioWeb';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  //  <React.StrictMode>
-    // <BlogWeb/>
-    // <WebGallery/>
-    // <WebDesign/>
-     <WebSites/>
-    // <InicioWeb/>
-  // {/* </React.StrictMode> */}
+   <React.StrictMode>
+    <InicioWeb/>
+  </React.StrictMode>
 );

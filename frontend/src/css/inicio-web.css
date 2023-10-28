@@ -65,9 +65,7 @@
 }
 
 .third-column-container > .three-dots-container {
-    padding-left: 42%;
-    padding-top: 9%;
-    padding-bottom: 9%;
+    padding: 11% 14% 11% 50%;
 }
 
 .third-column-container > .social-media-container {

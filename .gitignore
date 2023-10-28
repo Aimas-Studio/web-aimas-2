@@ -1,1 +1,8 @@
+<<<<<<< HEAD
 node_modules
+=======
+frontend/node_modules/.cache/.eslintcache
+frontend\node_modules
+frontend\node_modules\.cache
+web-aimas-2
+>>>>>>> 75d0fc921438e0b441ac10033d8c3824c60432aa
