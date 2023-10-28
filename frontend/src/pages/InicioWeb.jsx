@@ -8,12 +8,13 @@ import '../css/inicio-web.css';
 
 
 function InicioWeb() {
+
+  // Detectar si el navegador es Opera
   const esOpera = (!!window.opr) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
-
+  // Detectar si el modo oscuro está activado
   const modoOscuroActivado = window.matchMedia('(prefers-color-scheme: dark)').matches;
-
+  // Se activa si es modo oscuro de Opera
   const changeMedia = esOpera && modoOscuroActivado;
-  
 
   return (
     <div className="InicioWeb main-page-container">

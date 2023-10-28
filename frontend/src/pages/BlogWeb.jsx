@@ -1,13 +1,11 @@
-import '../css/blog-web.css';
+import { useState, useEffect } from 'react';
 import Portada from '../components/promo1'
 import SocialDotsHeader from '../components/social-dots-header';
 import OvalComponents from '../components/oval-components';
-import { useState, useEffect } from 'react';
-
+import '../css/blog-web.css';
 
 function App() {
-//TODO LO QUE ESTÁ COMENTADO ES EL CODIGO QUE LO CONECTA CON EL BACKEND
-  /*const [blogs, setBlog] = useState([])
+  const [blogs, setBlog] = useState([])
 
   useEffect(()=> {
     async function fetchBlog(){
@@ -30,6 +28,11 @@ function App() {
   return (
     <div className="BlogWeb main-page-container">
       <SocialDotsHeader/>
+
+      <p className='show-text'>
+        Blog
+      </p>
+
       <div className='contenedor-general'>
         {
           blogs.map((blog) =>
@@ -41,25 +44,14 @@ function App() {
           )
         }
       </div>
-     
-      <OvalComponents/>
-     
-    </div>   
-  );*/
-  return (
-    <div className="App">
-      <SocialDotsHeader/>
-      <div className='contenedor-general'>
-            <Portada
-            dir={require('../images/promo-A.png')}
-            mainText='El secreto del éxito empresarial: ¡Descubre el poder del logo!'
-            secText='Un identificador visual, conocido comúnmente como logotipo, es de vital importancia para tu negocio. No se trata simplemente de un dibujo o una imagen, sino de la representación visual de'
-            />
+      <div className='my-spacer'>
+          <br></br>
       </div>
      
       <OvalComponents/>
      
-    </div>   )
+    </div>   
+  );
 }
 
 export default App;
