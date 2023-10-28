@@ -32,6 +32,7 @@ function WebDesign() {
             <TextInfo
                 mainText='Diseño Gráfico'
                 secText='El diseño gráfico es imprescindible para la creación y/o consolidación de su empresa. A continuación les mostramos los servicios que nuestro estudio ofrece para usted en este sector:'
+                specialId='special-text-info'
             />
 
             <BlueOvalComponentsImage
@@ -43,9 +44,11 @@ function WebDesign() {
             />
             <OnlyText
                 text='Diseñamos el nombre de su empresa, su identificador visual (Logotipo) y las aplicaciones del mismo pautados en un manual de identidad visual.'
+                specialId='special-text-info'
             />
             <OnlyText
                 text='Este servicio incluye el diseño de todos los soportes necesarios para la marca como sus redes sociales, catálogos o cartas menú, tarjetas de presentación, uniformes y más.'
+                specialId='special-text-info'
             />
 
             <ContratarInfoButtons

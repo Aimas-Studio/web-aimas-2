@@ -7,7 +7,13 @@
 .my-row {
     align-items: stretch;
     justify-content: space-between;
-    align-content: center;    
+    align-content: center; 
+    width: 100%;   
+}
+.container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
 }
 
 .texto-largo {
@@ -29,11 +35,27 @@
 .column-first, 
     .column-second {
         height: auto;
+        padding: 0;
 }
 
 .varita {
-    width: 100%;
     padding: 7% 5% 13% 5%;
+    width: 100%;
     height: 100%;
 }
 
+@media screen and (max-width: 500px)
+{
+    .column-first, 
+    .column-second{
+        width: 100%;
+    }
+
+    .texto-largo {
+        font-size: 3vw;
+    }
+
+    .column-sized-12{
+        margin: 5% 0%;
+    }
+}

@@ -14,8 +14,8 @@ root.render(
   //  <React.StrictMode>
     // <BlogWeb/>
     // <WebGallery/>
-    // <WebDesign/>
+     <WebDesign/>
     // <WebSites/>
-     <InicioWeb/>
+    // <InicioWeb/>
   // {/* </React.StrictMode> */}
 );

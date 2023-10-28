@@ -3,11 +3,11 @@ import '../css/text-info-button.css'
 import '../css/only-text.css'
 
 
-function OnlyText( { text } )
+function OnlyText( { text, specialId } )
 {
   return (
     
-    <div className='sec-text only-text-container'>
+    <div className='sec-text only-text-container' id={specialId}>
 			{text}
     </div>
   )
