@@ -1,21 +1,20 @@
 import SocialMedia from '../components/social-media';
-import SoloDots from '../components/solo-dots';
 import OvalComponents from '../components/oval-components';
 import TextInfo from '../components/text-with-info';
 import TextInfoButton from '../components/text-info-button';
 import OvalComponentsImage from '../components/oval-components-image';
-import DropDown from '../components/dropdown';
-import React, { useState, useEffect } from 'react';
-import '../css/inicio-web.css';
 import ThreeDots from '../components/three-dots';
+import '../css/inicio-web.css';
+
 
 function InicioWeb() {
+
+  // Detectar si el navegador es Opera
   const esOpera = (!!window.opr) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
-
+  // Detectar si el modo oscuro está activado
   const modoOscuroActivado = window.matchMedia('(prefers-color-scheme: dark)').matches;
-
+  // Se activa si es modo oscuro de Opera
   const changeMedia = esOpera && modoOscuroActivado;
-  
 
   return (
     <div className="InicioWeb main-page-container">
@@ -30,10 +29,14 @@ function InicioWeb() {
           alt='Aimas Small Logo'
           />
         </div>
-
+        <ThreeDots
+          specialId='second-column-three-dots'
+        />
+        
         {/*SECOND COLUMN*/}
         <div className="col-md-6 second-column">
           <div className='big-logo-container'>
+                
             <img
             className='aimas-big-logo-image'
             src={require(`../images/aimas-logo-big.png`)}

@@ -24,7 +24,7 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
     .logos {
         width: 12%;
         margin: 5%;

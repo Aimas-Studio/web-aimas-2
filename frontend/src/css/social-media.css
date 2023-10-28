@@ -4,11 +4,12 @@
     justify-content: center;
     align-content: center;
     padding: 3% 2%;
+    width: 30%;
 }
 
 .logos {
     width: 25%;
-    margin: 3% 12%;
+    margin: 3% 10%;
     padding: 1%;
 }
 
@@ -18,9 +19,10 @@
     justify-content: center;
     align-content: center;
     padding: 3%;
+    width: 100%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
     .logos {
         width: 15%;
         margin: 3%;
@@ -28,7 +30,7 @@
     }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 501px) {
     .dropdown-item > .social-media-container {
         display: none;
     }

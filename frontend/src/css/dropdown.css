@@ -1,3 +1,9 @@
+/* CSS */
+.no-scroll {
+    overflow: hidden;
+    height: 100%;
+}
+
 .dropdown-three-dots-container {
     display: flex;
     justify-content: center;
@@ -39,13 +45,13 @@
         inset: 0px 0px auto auto;
         transform: translate3d(42px, -27px, 0px);
         width: 15rem;
-        height: 28rem;
+        height: 28rem;        
 }
 
 .dropdown-item:active {
     background:none;
 }
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     .dropdown-menu {
       position: fixed;
       top: 0;
@@ -53,6 +59,19 @@
       height: 100vh;
       overflow-y: auto; /* Agrega barras de desplazamiento si es necesario */
     }
-  }
-  
-  
+
+    #my-dropdown-menu {
+        position: fixed;
+        inset: 0px;
+        transform: translate3d(0px, 0px, 0px);
+        height: 100vh;
+        width: 50vw;
+    }
+    .dropdown-item {
+        font-size: 3.5vw;
+    }
+
+    .social-media-in-menu {
+        padding-top: 30%;
+    }
+}

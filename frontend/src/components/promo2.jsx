@@ -12,7 +12,7 @@ function Pagina( { dir, mainText, secText, implementado, irSitio, url } )
   />
   <div className='contenedor-texto-principal-promo2'>
     <p className='texto-principal-promo2'>
-      <strong>{mainText}</strong>
+      {mainText}
     </p>
     <p className='texto-secundario-promo2'>
       {secText}

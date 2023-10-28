@@ -35,24 +35,34 @@
     }
     .regular-ovals {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        flex-wrap: nowrap;
+        justify-content: center;
         align-content: center;
         align-items: stretch;
-        margin: 2% 0%;
+        margin: 5% 0%;
         position: initial;
-        width: 80%;
+    }
+
+    .regular-ovals,
+     #no-image-blue-oval {
+        width: 100%;
+        height: 40vw;
+        justify-content: space-between;
     }
 
     .regular-ovals > .oval-container {
-        border-radius: 5px;
-        width: 40%;
-        margin: 0% 1%;
+        border-radius: 12px;
+        width: 45%;
+        margin: 0% 0%;
     }
 
     #no-image-blue-oval {
-        border-radius: 5px;
-        width: 80%;
+        border-radius: 12px;
     }
+
+    #blue-oval-head-text {
+        justify-content: center;
+    }
+
 
 }

@@ -5,11 +5,12 @@
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: nowrap;
+    width: 100%;
 }
 
 
 
-@media screen and (max-width: 600px)
+@media screen and (max-width: 500px)
 {
   .contenedor-header > .social-media-container  {
     display: none;

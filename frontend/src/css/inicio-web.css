@@ -57,6 +57,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .third-column-container > .three-dots-container {
@@ -66,59 +67,45 @@
 }
 
 .third-column-container > .social-media-container {
-    transform: translate3d(-10px, 0px, 0px)
+    width: auto;
 }
 
-@media screen and (min-width: 601px) {
+/* ---------     Mostar footer en versión móvil       ---------*/
+@media screen and (min-width: 501px) {
     .footer-promocional {
         display: none;
     }
+    .col-md-3 {
+        flex: 0 0 auto;
+        width: 25%;
+    }
+    .second-column-three-dots {
+        display: none;
+    }
 }
+
+/* ---   Arreglar ajustes de las columnas porque bootstrap los cambia   --- */
 
 @media screen and (max-width: 770px) and (min-width: 501px) {    
     .aimas-big-logo-image {
         width: 80%;
     }
     .first-column {
-        display: none;
+        width: 25%;
     }
     .second-column {
-        width: 80%;
+        width: 50%;
     }
     .third-column {
-        width: 15%;
-    }
-    .third-column-container > .social-media-container {
-        display: none;
-    }
-    /*
-    .solo-dots {
-        width: 110%;
-        padding: 8% 0% 8% 0%;
-    }
-
-
-    .solo-dots-container {
-        display: flex;
-        padding: 8% 11% 8% 55%;
-        border-radius: 10px;
-        margin: 1%;
-        flex-direction: row;
-        align-content: flex-end;
-        justify-content: flex-end;
-    }*/
+        width: 25%;
+    }    
 }
-@media screen and (max-width: 600px) {
 
-    .third-column-container > .three-dots-container {
-        border: none;
-        padding: 1%;
-    }
-}
+/*Ajustes para versión móvil*/
 
 @media screen and (max-width: 500px) {
     .oval-p {
-        font-size: 3vw;
+        font-size: 5.6vw;
     }
     .third-column {
         display: none;
@@ -128,5 +115,23 @@
     }
     .first-column {
         display: none;
+    }
+    .oval-button {
+        font-size: 2.7vw;
+    }
+    .aimas-small-logo-image {
+        width: 50%;
+    }
+    .big-logo-container {
+        align-items: flex-start;
+    }
+    .second-column-three-dots {
+        justify-content: flex-end;
+        margin: 0%;
+        padding: 0%;
+        width: 90%;
+    }
+    .aimas-big-logo-image {
+        margin: 0%;
     }
 }
