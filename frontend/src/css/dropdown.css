@@ -46,12 +46,16 @@
     transform: translate3d(42px, -27px, 0px);
     width: 15rem;
     height: 28rem;
-    --bs-dropdown-padding-y: 6rem; 
-    padding-bottom: 1rem;     
+    --bs-dropdown-padding-y: 6rem;
+    padding-bottom: 25rem;
 }
 
 .dropdown-item:active {
     background:none;
+}
+
+.social-media-in-menu {
+    display: none;
 }
 @media (max-width: 500px) {
     .dropdown-menu {
@@ -70,6 +74,12 @@
         justify-content: space-between;
         display: flex;
         flex-direction: column;
+        border-radius: 0px;
+        border-top: none;
+        border-left: none;
+        border-bottom: none;
+        padding-bottom: 1rem;
+
     }
     .dropdown-item {
         font-size: 3.5vw;
