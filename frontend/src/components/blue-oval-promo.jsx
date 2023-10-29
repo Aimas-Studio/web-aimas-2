@@ -1,7 +1,8 @@
 import React from 'react';
-import '../css/blue-oval-promo.css'
+import { Link } from 'react-router-dom';
+import '../css/blue-oval-promo.css';
 
-function BlueOval( {word1, word2, buttonText } )
+function BlueOval( {word1, word2, buttonText, linkPage } )
 {
   return (
     
@@ -15,9 +16,9 @@ function BlueOval( {word1, word2, buttonText } )
         </div>
 			</div>
         <div className='blue-oval-button-container'>
-            <button className='blue-oval-button'>
+            <a href={linkPage} className='blue-oval-button'>
                 {buttonText}
-            </button>
+            </a>
         </div>
     </div>
   )

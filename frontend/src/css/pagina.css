@@ -32,5 +32,9 @@
     .contenedor-tags-texto {
         font-size: 3vw;
     }
+    .tags-texto {
+        margin-right: 14%;
+        letter-spacing: 1px;
+    }
 }
 

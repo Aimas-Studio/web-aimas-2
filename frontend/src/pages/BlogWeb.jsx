@@ -5,7 +5,7 @@ import OvalComponents from '../components/oval-components';
 import DesapearText from '../components/desapearing-text';
 import '../css/blog-web.css';
 
-function App() {
+function BlogWeb() {
   const [blogs, setBlog] = useState([])
 
   useEffect(()=> {
@@ -55,4 +55,4 @@ function App() {
   );
 }
 
-export default App;
+export default BlogWeb;

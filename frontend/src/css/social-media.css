@@ -7,9 +7,13 @@
     width: 31%;
 }
 
+.logo-images {
+    width: 87%;
+}
+
 .logos {
     width: 15%;
-    margin: 0% 13% 0% 0%;
+    margin: 0% 9% 0% 0%;
     padding: 1%;
 }
 
@@ -24,10 +28,14 @@
 
 @media only screen and (max-width: 500px) {
     .logos {
-        width: 15%;
         margin: 3%;
-        padding: 1%;
     }
+
+    .logo-images {
+        width: 130%;
+    }
+
+
 }
 
 @media only screen and (min-width: 501px) {

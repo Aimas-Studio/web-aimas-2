@@ -60,11 +60,14 @@ function InicioWeb() {
         mainText='Blog del Sitio'
         secText='Contamos con una blog digital en donde te brindamos consejos y recomendaciones para impulsar tu negocio en distintas esferas.'
         buttonText='IR AL BLOG'
+        linkPage='/Blog'
       />
      
       <OvalComponentsImage/>
 
       <TextInfo
+        linkId='quienes-somos-section'
+        specialId ='special-text-info'
         mainText='¿Quiénes Somos?'
         secText='Somos un Estudio de Diseño especializado en la creación de marcas y sitios webs. Creamos logotipos, manuales de identidad, tarjetas de presentación, folletos, catálogos digitales y cartas menú para restaurantes, tiendas online y más!'
       />
@@ -73,6 +76,8 @@ function InicioWeb() {
         mainText='Comunidad'
         secText='Todos los contenidos que publicamos en redes sociales son redireccionados a nuestro grupo oficial de WhatsApp en el que realizamos dinámicas y concursos para la comunidad de emprendedores. '
         buttonText='UNIRME A LA COMUNIDAD'
+        linkPage='https://whatsapp.com/channel/0029VaDjllj4o7qTq37d222A'
+        specialId='special-text-info'
       />
 
       <div className='footer-promocional'>
@@ -84,8 +89,6 @@ function InicioWeb() {
         <SocialMedia/>
 
       </div>
-
-
     </div>   
   );
 }

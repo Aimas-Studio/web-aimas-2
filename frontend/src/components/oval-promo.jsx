@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../css/oval-promo.css'
 
-function Oval( {word1, word2, imageColor} )
+function Oval( {word1, word2, imageColor, linkPage} )
 {
   return (
     
@@ -22,9 +23,7 @@ function Oval( {word1, word2, imageColor} )
             </div>
 
             <div className='oval-button-container'>
-                <button className='oval-button'>
-                    VER MÁS
-                </button>
+                <Link to={linkPage} className='oval-button'>VER MÁS</Link>
             </div>
         </div>
     </div>

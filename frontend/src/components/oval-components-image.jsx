@@ -21,6 +21,7 @@ function OvalComponentsImage() {
               word1='Galería de Proyectos'
               word2='Conoce a nuestros clientes y los proyectos que hemos desarrollado'
               buttonText='IR A LA GALERÍA'
+              linkPage='/Gallery'
             />
           </div>
         </div>     

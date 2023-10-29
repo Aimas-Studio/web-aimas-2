@@ -15,6 +15,7 @@
 }
 
 .button-text {
+    text-align: center;
     font-family: 'PoppinsLight';
     font-size: 1.5vw;
     color: #474747;
@@ -62,9 +63,21 @@
         justify-content: center;
     }
     .button-text {
-        border-radius: 8px;
+        border-radius: 6px;
         font-size: 2.8vw;
         padding: 1.5% 5%;
         min-width: 60%;
+    }
+
+    #special-text-info {
+        text-align: left;
+        margin: 5% 0%;
+        font-size: 3.5vw;
+    }
+    #special-text-info.main-text {
+        font-size: 6vw;
+    }
+    #special-text-info.oval-button-container {
+        justify-content: flex-start;
     }
 }

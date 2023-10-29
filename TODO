@@ -1,13 +1,3 @@
 # Cambios pendientes
 
-## - Conectar botones
-
-### - Añadir enlaces a las páginas del menú
-
-- Web Design
-- Web Sites
-- Inicio
-- Web Gallery
-- Blog Web
-
-### Instalar react-router-dom
+- Hacer link de Quienes Somos botón en el blog

@@ -31,6 +31,7 @@ function WebSites() {
             />
 
             <TextInfo
+                specialId='special-text-info'
                 mainText='Sitios Webs'
                 secText='Un sitio web es el equivalente de un local físico en la esfera digital; su diseño, función y la visibilidad que tenga son factores decisivos para nuestro negocio.'
             />
@@ -43,6 +44,7 @@ function WebSites() {
             />
 
             <OnlyText
+                specialId='special-text-info'
                 text='Sitio Web sencillo que contiene una descripción de su empresa, imágenes de los productos y/o servicios que ofrece y botones de contacto.'
             />
             <ContratarInfoButtons
@@ -69,6 +71,7 @@ function WebSites() {
             </div>
 
             <TextInfo
+                specialId='special-text-info'
                 mainText=''
                 secText='Se muestran sus servicios y/o productos, botones de contacto y para acceder a sus redes sociales, una galería de los proyectos realizados y un blog en el que puede publicar contenido afín a su actividad y ganar posicionamiento en los buscadores.'
             />
@@ -87,6 +90,7 @@ function WebSites() {
                 image='camion'
             />
             <TextInfo
+                specialId='special-text-info'
                 mainText=''
                 secText='Plataforma de ventas en las que usted no solo puede mostrar sus productos o servicios sino que también puede comercializarlos directamente mediante la integración de un carrito de compras. Contiene además todas las funcionalidades del sitio institucional.'
             />
