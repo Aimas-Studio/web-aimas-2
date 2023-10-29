@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../css/pagina.css'
 
 function Pagina( { dir, mainText, secText, implementado, irSitio, url } )
@@ -29,9 +30,9 @@ function Pagina( { dir, mainText, secText, implementado, irSitio, url } )
             { implementado }
           </p>
           
-          <a id='irsitio-text' class='tags-texto' href={irSitio ? url: ''}>
+          <Link id='irsitio-text' class='tags-texto' to={irSitio ? url: ''}>
             {irSitio ? '-IR AL SITIO-': ''}
-          </a>
+          </Link>
           
           </div>      
         </div>

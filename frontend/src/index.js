@@ -9,6 +9,7 @@ import WebGallery from './pages/WebGallery';
 import WebDesign from './pages/WebDesign';
 import WebSites from './pages/WebSites';
 import InicioWeb from './pages/InicioWeb';
+import TextInfo from './components/text-with-info';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,5 +21,6 @@ root.render(
       <Route path='/Designs' Component={WebDesign}/>
       <Route path='/WebSites' Component={WebSites} />
       <Route path='/Blog' Component={BlogWeb} />
+      <Route path='/Text' Component={TextInfo}/>
     </Routes>
   </Router>);

@@ -67,9 +67,11 @@ function WebDesign() {
             />
 
             <OnlyText
+                specialId='special-text-info'
                 text='En este servicio le ofrecemos distintos paquetes que incluyen la creación de un plan temático de contenido, el diseño de post y edición de videos y la publicación de los mismos.'
             />
             <OnlyText
+                specialId='special-text-info'
                 text='Garantizando siempre un aumento de la cantidad de seguidores.'
             />
             

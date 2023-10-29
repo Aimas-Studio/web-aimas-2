@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import '../css/social-media.css'
 
@@ -23,23 +24,29 @@ function SocialMedia( {isMenuLogos} )
     
     <div className='social-media-container'>
         {/*Instagram Logo*/}
-        <img 
-        className='insta-logo logos'
-        src={require(`../images/insta-${dir}.png`)}
-        alt="social media logos"
-        />
+        <Link to='https://www.instagram.com/aimas_studio/?img_index=1' className='logos'>
+          <img 
+            className='insta-logo logo-images'
+            src={require(`../images/insta-${dir}.png`)}
+            alt="social media logos"
+          />
+        </Link>
          {/*Facebook Logo*/}
-        <img 
-        className='face-logo logos'
-        src={require(`../images/face-${dir}.png`)}
-        alt="social media logos"
-        />
+         <Link to='https://www.facebook.com/profile.php?id=100093382833855&mibextid=ZbWKwL' className='logos'>
+          <img 
+            className='face-logo logo-images'
+            src={require(`../images/face-${dir}.png`)}
+            alt="social media logos"
+          />
+        </Link>
          {/*Whatsapp Logo*/}
-        <img 
-        className='whats-logo logos'
-        src={require(`../images/whats-${dir}.png`)}
-        alt="social media logos"
-        />
+        <Link to='https://wa.me/5354144705?text=Hola%20Prueba' className='logos'>
+          <img           
+            className='whats-logo logo-images'  
+            src={require(`../images/whats-${dir}.png`)}
+            alt="social media logos"
+          />
+        </Link>
     </div>
   )
 }
