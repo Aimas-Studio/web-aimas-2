@@ -1,9 +1,10 @@
+import { Link } from 'react-router-dom';
 import Dropdown from 'react-bootstrap/Dropdown';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import leftArrow from '../images/arrow-left.png';
 import {useState} from 'react';
-import '../css/three-dots.css'
-import '../css/dropdown.css'
+import '../css/three-dots.css';
+import '../css/dropdown.css';
 import SocialMedia from './social-media';
 
 function DropDown() {
@@ -28,6 +29,7 @@ function DropDown() {
             
             {/*TOGGLE*/}
             <Dropdown.Toggle id="dropdown-custom">
+                
                 <img 
                     className='three-dots'
                     src={require(`../images/three-dots.png`)}
@@ -49,7 +51,7 @@ function DropDown() {
               <Dropdown.Item eventKey="2">Inicio</Dropdown.Item>
               
               <Dropdown.Divider />
-              <Dropdown.Item eventKey="3">Diseño Gráfico</Dropdown.Item>
+              <Dropdown.Item eventKey="3"><Link to='/WebDesign'>Diseño Gráfico</Link></Dropdown.Item>
               
               <Dropdown.Divider />
               <Dropdown.Item eventKey="4">Sitios Webs</Dropdown.Item>
