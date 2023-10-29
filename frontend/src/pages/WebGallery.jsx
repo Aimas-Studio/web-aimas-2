@@ -22,7 +22,6 @@ function WebGallery() {
           console.error('Error consiguiendo los datos', error)
         }}
     fetchProject()
-    console.log(projects)
     }, []);
   
     

@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ReactDOM from 'react-dom/client';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
@@ -14,5 +14,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <React.StrictMode>
   <Router>
-    <WebGallery/>
+    <Routes>
+      <Route path='/'  Component={InicioWeb}/>
+      <Route path='/Gallery' Component={WebGallery} />
+      <Route path='/Designs' Component={WebDesign}/>
+      <Route path='/WebSites' Component={WebSites} />
+      <Route path='/Blog' Component={BlogWeb} />
+    </Routes>
   </Router>);

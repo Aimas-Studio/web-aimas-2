@@ -84,8 +84,6 @@ function InicioWeb() {
         <SocialMedia/>
 
       </div>
-
-
     </div>   
   );
 }
