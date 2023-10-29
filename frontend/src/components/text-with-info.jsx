@@ -1,8 +1,8 @@
 import '../css/text-info-button.css';
 
-function TextInfo( {mainText, secText, specialId } ) {
+function TextInfo( {mainText, secText, specialId, linkId } ) {
   return (
-    <div className="text-info-container">
+    <section className="text-info-container" id={linkId}>
       <div className="text-info-inner-container">
           <p className='main-text' id={specialId}>
             {mainText}
@@ -11,7 +11,7 @@ function TextInfo( {mainText, secText, specialId } ) {
             {secText}
           </p>        
       </div>
-    </div> 
+    </section> 
   );
 }
 

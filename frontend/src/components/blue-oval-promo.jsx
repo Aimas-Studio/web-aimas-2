@@ -16,9 +16,9 @@ function BlueOval( {word1, word2, buttonText, linkPage } )
         </div>
 			</div>
         <div className='blue-oval-button-container'>
-            <Link to={linkPage} className='blue-oval-button'>
+            <a href={linkPage} className='blue-oval-button'>
                 {buttonText}
-            </Link>
+            </a>
         </div>
     </div>
   )
