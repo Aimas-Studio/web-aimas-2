@@ -30,6 +30,7 @@ function BlueOvalImageText( {mainText, secText, backImage} ) {
                 colorT1='#fff'
                 colorT2='#003070'
                 idLast='isLast'
+                servicio='otros.'
               />
               </div>
             </div>

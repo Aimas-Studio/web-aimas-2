@@ -52,6 +52,7 @@ function WebSites() {
                 color2='#C7D7FD'
                 colorT1='#fff'
                 colorT2='#003070'
+                servicio='sitios webs promocionales'
             />
 
             <div className='container-blue-oval-two-images'>
@@ -70,16 +71,16 @@ function WebSites() {
                 </div>
             </div>
 
-            <TextInfo
+            <OnlyText
                 specialId='special-text-info'
-                mainText=''
-                secText='Se muestran sus servicios y/o productos, botones de contacto y para acceder a sus redes sociales, una galería de los proyectos realizados y un blog en el que puede publicar contenido afín a su actividad y ganar posicionamiento en los buscadores.'
+                text='Se muestran sus servicios y/o productos, botones de contacto y para acceder a sus redes sociales, una galería de los proyectos realizados y un blog en el que puede publicar contenido afín a su actividad y ganar posicionamiento en los buscadores.'
             />
             <ContratarInfoButtons
                 color1='#4EB3E7'
                 color2='#C9E8F8'
                 colorT1='#fff'
                 colorT2='#003070'
+                servicio='sitios webs institucionales'
             />
 
             <BlueOvalImageAndImage
@@ -89,16 +90,16 @@ function WebSites() {
                 background='flecha'
                 image='camion'
             />
-            <TextInfo
+            <OnlyText
                 specialId='special-text-info'
-                mainText=''
-                secText='Plataforma de ventas en las que usted no solo puede mostrar sus productos o servicios sino que también puede comercializarlos directamente mediante la integración de un carrito de compras. Contiene además todas las funcionalidades del sitio institucional.'
+                text='Plataforma de ventas en las que usted no solo puede mostrar sus productos o servicios sino que también puede comercializarlos directamente mediante la integración de un carrito de compras. Contiene además todas las funcionalidades del sitio institucional.'
             />
             <ContratarInfoButtons
                 color1='#0086CB'
                 color2='#B2DAEF'
                 colorT1='#fff'
                 colorT2='#003070'
+                servicio='tienda online.'
             />
                         
         </div>
