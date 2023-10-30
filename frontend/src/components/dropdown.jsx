@@ -48,19 +48,19 @@ function DropDown() {
                 /> 
               </Dropdown.Item>              
               
-              <Dropdown.Item eventKey="2"><Link to='/'>Inicio</Link></Dropdown.Item>
+              <Dropdown.Item eventKey="2" href='/'>Inicio</Dropdown.Item>
               
               <Dropdown.Divider />
-              <Dropdown.Item eventKey="3"><Link to='/Designs'>Diseño Gráfico</Link></Dropdown.Item>
+              <Dropdown.Item eventKey="3" href='/Designs'>Diseño Gráfico</Dropdown.Item>
               
               <Dropdown.Divider />
-              <Dropdown.Item eventKey="4"><Link to='/WebSites' >Sitios Webs</Link></Dropdown.Item>
+              <Dropdown.Item eventKey="4" href='/WebSites'>Sitios Webs</Dropdown.Item>
               
               <Dropdown.Divider />
-              <Dropdown.Item eventKey="5"><Link to='/Gallery' >Galería</Link></Dropdown.Item>
+              <Dropdown.Item eventKey="5" href='/Gallery'>Galería</Dropdown.Item>
 
               <Dropdown.Divider />
-              <Dropdown.Item eventKey="6"><Link to='/Blog' >Blog</Link></Dropdown.Item>
+              <Dropdown.Item eventKey="6" href='/Blog'>Blog</Dropdown.Item>
               <Dropdown.Divider />
             </div>
               <div  className='social-media-in-menu'>
