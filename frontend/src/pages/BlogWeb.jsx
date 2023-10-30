@@ -49,7 +49,9 @@ function BlogWeb() {
           <br></br>
       </div>
      
-      <OvalComponents/>
+      <OvalComponents
+        linkPage='/#quienes-somos-section'
+      />
      
     </div>   
   );
