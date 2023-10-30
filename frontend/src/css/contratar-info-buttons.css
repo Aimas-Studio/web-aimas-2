@@ -26,7 +26,8 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        margin-top: 12%;
+        margin-top: 5%;
+        margin-bottom: 14%;
     }
 
     .cont-info-but{

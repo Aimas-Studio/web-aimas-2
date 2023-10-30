@@ -105,5 +105,6 @@
     .social-media-in-menu > .social-media-container {
         justify-content: center;
         width: 100%;
+        margin-bottom: 15%;
     }
 }
