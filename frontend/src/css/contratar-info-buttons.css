@@ -20,6 +20,11 @@
     margin: 0%;
 }
 
+#isLast > .cont-info-but {
+    padding: 1.4% 7.5%;
+    margin-bottom: 0%;
+}
+
 @media screen and (max-width: 500px) {
     .cont-info-but-container {
         flex-wrap: wrap;
