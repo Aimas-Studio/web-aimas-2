@@ -5,6 +5,7 @@ import TextInfoButton from '../components/text-info-button';
 import OvalComponentsImage from '../components/oval-components-image';
 import ThreeDots from '../components/three-dots';
 import '../css/inicio-web.css';
+import { useEffect, useState } from 'react';
 
 
 function InicioWeb() {
@@ -15,6 +16,7 @@ function InicioWeb() {
   const modoOscuroActivado = window.matchMedia('(prefers-color-scheme: dark)').matches;
   // Se activa si es modo oscuro de Opera
   const changeMedia = esOpera && modoOscuroActivado;
+  const [link, setLink] = useState("/#quienes-somos-section")
 
   return (
     <div className="InicioWeb main-page-container">
@@ -54,7 +56,7 @@ function InicioWeb() {
         </div>
       </div>
 
-      <OvalComponents/>
+      <OvalComponents linkPage={link}/>
       
       <TextInfoButton
         mainText='Blog del Sitio'
