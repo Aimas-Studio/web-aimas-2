@@ -56,6 +56,7 @@ function WebDesign() {
                 color2='#C7D7FD'
                 colorT1='#fff'
                 colorT2='#003070'
+                servicio='diseño de marcas'
             />
 
             <BlueOvalComponentsImage
@@ -80,6 +81,7 @@ function WebDesign() {
                 color2='#CCC7FD'
                 colorT1='#fff'
                 colorT2='#1A00FF'
+                servicio='gestión de redes.'
             />
 
             <BlueOvalImageText

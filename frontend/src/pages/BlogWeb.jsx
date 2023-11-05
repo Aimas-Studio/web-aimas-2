@@ -6,6 +6,7 @@ import DesapearText from '../components/desapearing-text';
 import '../css/blog-web.css';
 
 function BlogWeb() {
+  const [link, setLink] = useState("/#quienes-somos-section")
   const [blogs, setBlog] = useState([])
 
   useEffect(()=> {
@@ -20,12 +21,11 @@ function BlogWeb() {
       }
       catch(error){
         console.error('Error consiguiendo los datos', error)
-      }}
+      }
+    }
 
     fetchBlog()
-    console.log(blogs)
-    }, []);
-
+  }, []);
   return (
     <div className="BlogWeb main-page-container">
       <SocialDotsHeader/>
@@ -49,7 +49,9 @@ function BlogWeb() {
           <br></br>
       </div>
      
-      <OvalComponents/>
+      <OvalComponents
+      linkPage={link}
+      />
      
     </div>   
   );

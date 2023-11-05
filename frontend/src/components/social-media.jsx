@@ -40,7 +40,7 @@ function SocialMedia( {isMenuLogos} )
           />
         </Link>
          {/*Whatsapp Logo*/}
-        <Link to='https://wa.me/5354144705?text=Hola%20Prueba' className='logos'>
+        <Link to='https://wa.me/13057090744?text=Hola,%20me%20interesa%20conocer%20sobre%20sus%20servicios.%20¿Puede%20darme%20más%20información?' className='logos'>
           <img           
             className='whats-logo logo-images'  
             src={require(`../images/whats-${dir}.png`)}

@@ -5,16 +5,18 @@ import TextInfoButton from '../components/text-info-button';
 import OvalComponentsImage from '../components/oval-components-image';
 import ThreeDots from '../components/three-dots';
 import '../css/inicio-web.css';
+import { useEffect, useState } from 'react';
 
 
 function InicioWeb() {
 
   // Detectar si el navegador es Opera
-  const esOpera = (!!window.opr) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
+  // const esOpera = (!!window.opr) || !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
   // Detectar si el modo oscuro está activado
-  const modoOscuroActivado = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  // const modoOscuroActivado = window.matchMedia('(prefers-color-scheme: dark)').matches;
   // Se activa si es modo oscuro de Opera
-  const changeMedia = esOpera && modoOscuroActivado;
+  // const changeMedia = esOpera && modoOscuroActivado;
+  const [link, setLink] = useState("/#quienes-somos-section")
 
   return (
     <div className="InicioWeb main-page-container">
@@ -24,7 +26,7 @@ function InicioWeb() {
         <div className="col-md-3 first-column">
         <img
           className='aimas-small-logo-image'
-          src={changeMedia ? require(`../images/aimas-logo-small-white.png`) : require(`../images/aimas-logo-small.png`)}
+          src={require(`../images/aimas-logo-small.png`)}
 
           alt='Aimas Small Logo'
           />
@@ -54,7 +56,7 @@ function InicioWeb() {
         </div>
       </div>
 
-      <OvalComponents/>
+      <OvalComponents linkPage={link}/>
       
       <TextInfoButton
         mainText='Blog del Sitio'

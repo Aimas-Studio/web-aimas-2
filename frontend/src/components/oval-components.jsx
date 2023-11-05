@@ -3,7 +3,7 @@ import Oval from '../components/oval-promo'
 import BlueOval from '../components/blue-oval-promo';
 import { Link } from 'react-router-dom';
 
-function OvalComponents() {
+function OvalComponents( {linkPage} ) {
   return (
     <div className="OvalComponents">
             
@@ -27,7 +27,7 @@ function OvalComponents() {
           word1='¿Quiénes somos?'
           word2='Somos un Estudio de Diseño especializado en la creación de marcas y sitios webs.'
           buttonText='VER MÁS'
-          linkPage='#quienes-somos-section'
+          linkPage={linkPage}
         />
         </div>
       </div>     
