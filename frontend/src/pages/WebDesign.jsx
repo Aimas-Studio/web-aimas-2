@@ -10,22 +10,12 @@ import '../css/web-design.css';
 
 
 function WebDesign() {
-    const [modoOscuro, setModoOscuro] = useState(false);
-
-  useEffect(() => {
-    const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-    setModoOscuro(mediaQuery.matches);
-    const handler = (event) => setModoOscuro(event.matches);
-    mediaQuery.addEventListener('change', handler);
-    return () => mediaQuery.removeEventListener('change', handler);
-  }, []);
-
     return (
         <div className='WebDesign main-page-container'>
             <SocialDotsHeader/>
 
             <LogoAndImage
-                logoImage={modoOscuro ? 'aimas-logo-small-white' : 'aimas-logo-small'}
+                logoImage={'aimas-logo-small'}
                 promoImage='cchang-promo-image'
             />
 
