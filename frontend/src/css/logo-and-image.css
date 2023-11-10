@@ -9,7 +9,9 @@
 }
 
 .logo-container {
+    align-items: center;
     width: 30%;
+    display: flex;
 }
 
 .promoi-container {
