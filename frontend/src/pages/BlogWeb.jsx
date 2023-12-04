@@ -12,7 +12,7 @@ function BlogWeb() {
   useEffect(()=> {
     async function fetchBlog(){
       try {
-        const response = await fetch('http://127.0.0.1:8000/api/blogs/')
+        const response = await fetch('https://backend-aimas.onrender.com/api/blogs?populate=*')
         if (!response.ok){
           throw new Error("La red no respondió de manera correcta")
         }
@@ -38,9 +38,9 @@ function BlogWeb() {
         {
           blogs.map((blog) =>
             <Portada
-            dir={blog.image}
-            mainText={blog.title}
-            secText={blog.body}
+            dir={blog.data.attributes.image.data.attributes.url}
+            mainText={blog.data.attributes.nombre}
+            secText={blog.data.attributes.body}
             />
           )
         }
