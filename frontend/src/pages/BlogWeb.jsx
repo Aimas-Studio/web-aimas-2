@@ -43,10 +43,8 @@ function BlogWeb() {
               mainText={blog.attributes.nombre}
               secText={blog.attributes.body}
             />
-          }
+          });
           else {Console.log('indefinidp');}
-          
-          )
         }
       </div>
       <div className='my-spacer'>
