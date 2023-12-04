@@ -36,7 +36,7 @@ function BlogWeb() {
 
       <div className='contenedor-general'>
         {
-          blogs.data[0].map((blog) =>
+          blogs.data.map((blog) =>
             <Portada
             dir={blog.attributes.image.data.attributes.url}
             mainText={blog.attributes.nombre}
