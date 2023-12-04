@@ -36,11 +36,14 @@ function BlogWeb() {
 
       <div className='contenedor-general'>
         {
-          blogs.data.map((blog) =>
-            <Portada
-            dir={blog.attributes.image.data.attributes.url}
-            mainText={blog.attributes.nombre}
-            secText={blog.attributes.body}
+          if (blogs.data) {
+            blogs.data.map((blog) =>
+              <Portada
+              dir={blog.attributes.image.data.attributes.url}
+              mainText={blog.attributes.nombre}
+              secText={blog.attributes.body}
+                }
+        else {Console.log('indefinidp')}
             />
           )
         }
