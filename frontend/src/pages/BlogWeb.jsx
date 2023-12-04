@@ -43,7 +43,7 @@ function BlogWeb() {
               mainText={blog.attributes.nombre}
               secText={blog.attributes.body}
                 }
-        else {Console.log('indefinidp')}
+        else {Console.log('indefinidp');}
             />
           )
         }
