@@ -42,9 +42,10 @@ function BlogWeb() {
               dir={blog.attributes.image.data.attributes.url}
               mainText={blog.attributes.nombre}
               secText={blog.attributes.body}
-                }
-        else {Console.log('indefinidp');}
             />
+          }
+          else {Console.log('indefinidp');}
+          
           )
         }
       </div>
