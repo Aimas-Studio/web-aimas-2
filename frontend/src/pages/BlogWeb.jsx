@@ -36,11 +36,11 @@ function BlogWeb() {
 
       <div className='contenedor-general'>
         {
-          blogs.map((blog) =>
+          blogs.data[0].map((blog) =>
             <Portada
-            dir={blog.data.attributes.image.data.attributes.url}
-            mainText={blog.data.attributes.nombre}
-            secText={blog.data.attributes.body}
+            dir={blog.attributes.image.data.attributes.url}
+            mainText={blog.attributes.nombre}
+            secText={blog.attributes.body}
             />
           )
         }
