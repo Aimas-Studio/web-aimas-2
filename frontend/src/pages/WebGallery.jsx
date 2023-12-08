@@ -6,12 +6,12 @@ import { useState, useEffect } from 'react';
 
 function WebGallery() {
   //TODO LO QUE ESTÁ COMENTADO ES EL CODIGO QUE LO CONECTA CON EL BACKEND
-  const [projects, setProject] = useState([])
+  const [projects, setProject] = useState({'data': []})
 
   useEffect(()=> {
       async function fetchProject(){
         try {
-          const response = await fetch('http://127.0.0.1:8000/api/project/')
+          const response = await fetch('https://backend-aimas.onrender.com/api/projects?populate=*')
           if (!response.ok){
             throw new Error("La red no respondió de manera correcta")
           }
@@ -32,14 +32,14 @@ function WebGallery() {
         text='Galería'  
       />
       {
-        projects.map((project) =>
+        projects.data.map((project) =>
           <Pagina
-          dir={project.image}
-          mainText={project.title}
-          secText={project.body}
-          implementado={project.type}
-          irSitio={project.site}
-          url={project.url}  
+          dir={project.attributes.image.data.attributes.url}
+          mainText={project.attributes.title}
+          secText={project.attributes.body}
+          implementado={project.attributes.type}
+          irSitio={project.attributes.site}
+          url={project.attributes.url}  
         />
           )}
     </div>    
