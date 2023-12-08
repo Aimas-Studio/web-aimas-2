@@ -7,7 +7,7 @@ import '../css/blog-web.css';
 
 function BlogWeb() {
   const [link, setLink] = useState("/#quienes-somos-section")
-  const [blogs, setBlog] = useState([])
+  const [blogs, setBlog] = useState({'data': []})
 
   useEffect(()=> {
     async function fetchBlog(){
