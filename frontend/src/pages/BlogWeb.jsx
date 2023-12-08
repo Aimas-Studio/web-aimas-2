@@ -36,15 +36,13 @@ function BlogWeb() {
 
       <div className='contenedor-general'>
         {
-          if (blogs.data) {
-            blogs.data.map((blog) =>
-              <Portada
-              dir={blog.attributes.image.data.attributes.url}
-              mainText={blog.attributes.nombre}
-              secText={blog.attributes.body}
-            />
-          });
-          else {Console.log('indefinidp');}
+          blogs.data.map((blog) =>
+          <Portada
+          dir={blog.attributes.image.data.attributes.url}
+          mainText={blog.attributes.nombre}
+          secText={blog.attributes.body}
+          />
+          )
         }
       </div>
       <div className='my-spacer'>
